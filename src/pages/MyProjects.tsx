@@ -5,7 +5,7 @@ type Props = {}
 const MyProjects = (props: Props) => {
     return (
         <div>
-            {/* <section id="services">
+            <section id="services">
         <div className="container">
             <h1 className="text-center">My Projects</h1>
             <div className="row">
@@ -83,15 +83,15 @@ const MyProjects = (props: Props) => {
                 </div>
             </div>
         </div>
-    </section> */}
+    </section>
 
             <div className="container">
                 <div className="accordion" id="accordionExample">
                     <div className="item">
                         <div className="item-header" id="headingOne">
                             <h2 className="mb-0">
-                                <button className="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <button className="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     Collapsible Item #1
                                     <i className="fa fa-angle-down"></i>
                                 </button>
