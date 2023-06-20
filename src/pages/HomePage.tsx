@@ -25,6 +25,23 @@ const HomePage = (props: Props) => {
     <p>I am a web developer in Sri Lanka.</p>
     {/* <button>Learn More</button> */}
   </div>
+  <div className="achievements">
+    <div className="work">
+      <i className="fas fa-atom"></i>
+      <p className="work-heading">Projects</p>
+      <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+    </div>
+    <div className="work">
+      <i className="fas fa-skiing"></i>
+      <p className="work-heading">Skills</p>
+      <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+    </div>
+    <div className="work">
+      <i className="fas fa-ethernet"></i>
+      <p className="work-heading">Network</p>
+      <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+    </div>
+  </div>
 
       <div className="container-fluid py-5" id="about">
         <div className="container">
@@ -34,7 +51,7 @@ const HomePage = (props: Props) => {
           </div>
           <div className="row align-items-center">
             <div className="col-lg-5 pb-4 pb-lg-0">
-              <img className="img-fluid rounded w-100" src="https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg" alt="" />
+              <img className="img-fluid rounded " style={{height:'500px',marginTop:'-20%',marginLeft:'20%'}} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
@@ -213,24 +230,7 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="achievements">
-    <div className="work">
-      <i className="fas fa-atom"></i>
-      <p className="work-heading">Projects</p>
-      <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
-    </div>
-    <div className="work">
-      <i className="fas fa-skiing"></i>
-      <p className="work-heading">Skills</p>
-      <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
-    </div>
-    <div className="work">
-      <i className="fas fa-ethernet"></i>
-      <p className="work-heading">Network</p>
-      <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-    </div>
-  </div>
-  
+
       <section id="contact">
         <div className="container mt-3 contactContent">
           <h1 className="text-center">Contact Me</h1>
