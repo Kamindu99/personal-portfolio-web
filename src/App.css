@@ -113,7 +113,21 @@
 
 
 
+.intro h1.animate {
+  overflow: hidden;
+  animation: reveal 1s ease-in-out;
+}
 
+@keyframes reveal {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 
 
@@ -198,3 +212,25 @@
 }
 
 /* CSS for main section end*/
+
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+/* services section css end */

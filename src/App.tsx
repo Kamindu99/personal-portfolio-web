@@ -5,6 +5,7 @@ import Navbar from './pages/Shared/Navbar/Navbar';
 import Footer from './pages/Shared/Footer/Footer';
 import HomePage from './pages/HomePage';
 import PhotoGallery from './pages/ImageGallery';
+import MyProjects from './pages/MyProjects';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/my-photo" element={<PhotoGallery />} />
+        <Route path="/my-projects" element={<MyProjects />} />
       </Routes>
       <Footer />
     </BrowserRouter>

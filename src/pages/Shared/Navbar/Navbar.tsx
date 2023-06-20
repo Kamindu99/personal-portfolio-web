@@ -19,7 +19,7 @@ const Navbar = () => {
     const str = window.location.href;
 
     const isGallery = str.includes("/my-photo");
-    const isProject = str.includes("/#qualification");
+    const isProject = str.includes("/my-projects");
     const isContactMe = str.includes("/#contact");
     const isAboutUs = str.includes("/#about");
 
@@ -51,7 +51,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isProject?'active':''}`} href="/#qualification">Projects</a>
+                            <a className={`nav-link me-5 ${isProject?'active':''}`} href="/my-projects">Projects</a>
                         </li>
 
                         <li className="nav-item">

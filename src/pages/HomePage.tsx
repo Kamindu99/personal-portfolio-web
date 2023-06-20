@@ -3,6 +3,7 @@ import React from 'react'
 type Props = {}
 
 const HomePage = (props: Props) => {
+  
   return (
     <div>
 
@@ -20,7 +21,7 @@ const HomePage = (props: Props) => {
 
 
   <div className="intro" id="home">
-    <h1>Hi, It's me Kamindu</h1>
+  <h1 className="animate">Hi, It's me Kamindu</h1>
     <p>I am a web developer in Sri Lanka.</p>
     {/* <button>Learn More</button> */}
   </div>
@@ -229,6 +230,7 @@ const HomePage = (props: Props) => {
       <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
     </div>
   </div>
+  
       <section id="contact">
         <div className="container mt-3 contactContent">
           <h1 className="text-center">Contact Me</h1>
@@ -272,6 +274,7 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </section>
+
 
     </div>
 
