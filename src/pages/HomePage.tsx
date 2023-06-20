@@ -7,7 +7,7 @@ const HomePage = (props: Props) => {
     <div>
 
 
-      <section className="bgimage" id="home">
+      {/* <section className="bgimage" id="home">
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
@@ -16,7 +16,14 @@ const HomePage = (props: Props) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
+  <div className="intro" id="home">
+    <h1>Hi, It's me Kamindu</h1>
+    <p>I am a web developer in Sri Lanka.</p>
+    {/* <button>Learn More</button> */}
+  </div>
 
       <div className="container-fluid py-5" id="about">
         <div className="container">
@@ -47,7 +54,6 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </div>
-
 
       <div className="container-fluid py-5" id="skill">
         <div className="container">
@@ -206,6 +212,23 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </div>
+      <div className="achievements">
+    <div className="work">
+      <i className="fas fa-atom"></i>
+      <p className="work-heading">Projects</p>
+      <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+    </div>
+    <div className="work">
+      <i className="fas fa-skiing"></i>
+      <p className="work-heading">Skills</p>
+      <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+    </div>
+    <div className="work">
+      <i className="fas fa-ethernet"></i>
+      <p className="work-heading">Network</p>
+      <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+    </div>
+  </div>
       <section id="contact">
         <div className="container mt-3 contactContent">
           <h1 className="text-center">Contact Me</h1>
