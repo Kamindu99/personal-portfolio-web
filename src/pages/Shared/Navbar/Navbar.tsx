@@ -8,7 +8,7 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 50) {
+            if (window.scrollY > 99) {
                 setSticky(true)
             } else {
                 setSticky(false)
@@ -18,13 +18,12 @@ const Navbar = () => {
 
     const str = window.location.href;
 
-    const isEvent = str.includes("/eventhome");
-    const isResturent = str.includes("/resturents");
-    const isFlights = str.includes("/flights");
-    const isTransport = str.includes("/transport");
-    const isHotel = str.includes("/hotel-home");
+    const isGallery = str.includes("/#skill");
+    const isProject = str.includes("/#qualification");
+    const isContactMe = str.includes("/#contact");
+    const isAboutUs = str.includes("/#about");
 
-    let isHome = window.location.href === "https://travelwithkaminu.netlify.app/" || window.location.href.slice(21, ) === "/" ? true : false;
+    let isHome = str.includes("#home");
 
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} >
@@ -41,22 +40,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{marginRight:'100px'}}>
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isHome?'active':''}`} aria-current="page" href="/">HOME</a>
+                            <a className={`nav-link me-5 ${isHome?'active':''}`} aria-current="page" href="#home">HOME</a>
                         </li>
-                        <li className="nav-item active">
-                            <a className={`nav-link me-5 ${isHotel?'active':''}`} href="/hotel-home">About Me</a>
+                        <li className="nav-item">
+                            <a className={`nav-link me-5 ${isAboutUs?'active':''}`} href="#about">About Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a href='/eventhome' className={`nav-link me-5 ${isEvent?'active':''}`}>Contact Me</a>
+                            <a href='#contact' className={`nav-link me-5 ${isContactMe?'active':''}`}>Contact Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isResturent?'active':''}`} href="/resturents">Projects</a>
+                            <a className={`nav-link me-5 ${isProject?'active':''}`} href="#qualification">Projects</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isFlights?'active':''}`} href="/flights" >Gallery</a>
+                            <a className={`nav-link me-5 ${isGallery?'active':''}`} href="#skill" >Gallery</a>
                         </li>
                     </ul>
                 </div>
