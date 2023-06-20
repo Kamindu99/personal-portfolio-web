@@ -18,7 +18,7 @@ const Navbar = () => {
 
     const str = window.location.href;
 
-    const isGallery = str.includes("/#skill");
+    const isGallery = str.includes("/my-photo");
     const isProject = str.includes("/#qualification");
     const isContactMe = str.includes("/#contact");
     const isAboutUs = str.includes("/#about");
@@ -40,22 +40,22 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{marginRight:'100px'}}>
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isHome?'active':''}`} aria-current="page" href="#home">HOME</a>
+                            <a className={`nav-link me-5 ${isHome?'active':''}`} aria-current="page" href="/#home">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isAboutUs?'active':''}`} href="#about">About Me</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href='#contact' className={`nav-link me-5 ${isContactMe?'active':''}`}>Contact Me</a>
+                            <a className={`nav-link me-5 ${isAboutUs?'active':''}`} href="/#about">About Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isProject?'active':''}`} href="#qualification">Projects</a>
+                            <a href='/#contact' className={`nav-link me-5 ${isContactMe?'active':''}`}>Contact Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link me-5 ${isGallery?'active':''}`} href="#skill" >Gallery</a>
+                            <a className={`nav-link me-5 ${isProject?'active':''}`} href="/#qualification">Projects</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className={`nav-link me-5 ${isGallery?'active':''}`} href="/my-photo" >Gallery</a>
                         </li>
                     </ul>
                 </div>
