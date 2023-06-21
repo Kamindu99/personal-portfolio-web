@@ -37,6 +37,8 @@ To run the personal portfolio web application locally, follow these steps:
 Feel free to explore the codebase, make changes, and customize the website to suit your personal preferences.
 
 If you have any questions, suggestions, or feedback, please feel free to reach out to me at [kamidugayantha123@gmail.com].
+
+Thank you for visiting my personal portfolio web repository!
 # About me
 
 ### 👨‍💻 Kamindu Gayantha
@@ -69,5 +71,3 @@ If you have any questions, suggestions, or feedback, please feel free to reach o
 </a>
 
 </div>
-
-Thank you for visiting my personal portfolio web repository!
