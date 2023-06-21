@@ -149,7 +149,7 @@
 
 /* services section css */
 .servicesText.card {
-  height: 280px;
+  height: 250px;
   cursor: pointer;
 }
 .servicesIcon {
@@ -179,7 +179,7 @@
     background: none;
 }
 .t-p{
-  color: rgb(193 206 216);
+  color: rgb(135, 135, 135);
   padding: 40px 30px 0px 30px;
 }
 .accordion .item .item-header h2 button.btn.btn-link {
@@ -197,6 +197,10 @@
     background: transparent;
     padding: 0px;
     margin: 2px;
+}
+
+.accordion .img-fluid {
+width:100%
 }
 
 .accordion .item .item-header h2 button {

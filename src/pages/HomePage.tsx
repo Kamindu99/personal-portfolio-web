@@ -314,8 +314,9 @@ const HomePage = (props: Props) => {
 
             <div className="col-lg-6 d-flex align-items-center">
               <form className="w-100" onSubmit={handleSubmit}>
-                {/* Form fields */}
-                <input type="text" className="form-control form-control-lg" name="name" placeholder="Name" />
+              If you have any questions or would like to contact me, please fill out the form below and I will get back to you as soon as possible.
+                {/* Form fields */}<br/><br/>
+                <input type="text" className="form-control form-control" name="name" placeholder="Name" />
                 <input type="email" className="form-control mt-3" name="email" placeholder="Email" />
                 <input type="text" className="form-control mt-3" name="subject" placeholder="Subject" />
                 <div className="mb-3 mt-3">
@@ -323,7 +324,7 @@ const HomePage = (props: Props) => {
                 </div>
 
                 {/* Submit button */}
-                <button type="submit" className="btn btn-success mt-3">Contact Me</button>
+                <button type="submit" className="btn btn-success mt-3" style={{width:'100%'}}>Send Mail</button>
               </form>
             </div>
 
