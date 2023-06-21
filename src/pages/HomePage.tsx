@@ -103,7 +103,7 @@ const HomePage = (props: Props) => {
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
-              <p>
+              <p style={{textAlign:'justify'}} className='me-5'>
                 I am Kamindu Gayantha Wanigasinghe and 24 years old. I am currently pursuing my degree in Software Engineering in Sri Lanka Institute of Information Technology.
                 During my academic life, I obtained a thorough understanding of several programming languages, algorithms, and software development methodologies.
                 I am passionate to leverage my technical skills and knowledge to contribute to the creation of innovative software solutions that positively impact people's lives.
@@ -216,9 +216,9 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>St. Aloysius College</strong> | <small>2009 - 2015</small>
                   </p>
-                  <p>
+                  <p  className='me-5'>
                     I am delighted to share with you my exceptional performance in the Ordinary Level exam at St. Aloysius, where I
-                    achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication, hard work, and
+                    achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication and
                     academic excellence.
                   </p>
                 </div>
@@ -228,10 +228,10 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>St. Aloysius College</strong> | <small>2016 - 2018</small>
                   </p>
-                  <p>
-                    I am pleased to share that I have successfully passed the Advanced Level exam at St. Aloysius, attaining three
+                  <p  className='me-5'>
+                    I am pleased to share that I have successfully passed the AL exam at St. Aloysius, attaining three
                     commendable C grades. This achievement represents a significant milestone in my academic journey and reflects
-                    my dedication, perseverance, and commitment to learning.
+                    my commitment to learning.
                   </p>
                 </div>
                 <div className="position-relative ex-me mb-4">
@@ -240,14 +240,14 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>SLIIT</strong> | <small>2020 - 2024</small>
                   </p>
-                  <p>
+                  <p  className='me-5'>
                     I am currently enrolled in the B.Sc. Software Engineering program at SLIIT (Sri Lanka Institute of Information
                     Technology), where I am passionately studying to become a skilled and versatile software engineer.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 ">
               <h3 className="mb-4">My Experience</h3>
               <div className="border-left border-primary pt-2 pl-4 ml-2">
                 <div className="position-relative ex-me mb-4">

@@ -11,8 +11,8 @@ const Footer = () => {
 
     ]
     const oralHealth = [
-        { name: "Pass O/L", link: "/" },
-        { name: "Pass A/L", link: "/" },
+        { name: "Completed O/L", link: "/" },
+        { name: "Completed A/L", link: "/" },
         { name: "Undergraduate at SLIIT", link: "/" },
         { name: "Associate SE 1 Year", link: "/" },
       
