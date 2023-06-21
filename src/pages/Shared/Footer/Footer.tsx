@@ -3,31 +3,32 @@ import FooterDetail from './FooterDetail';
 import './Footer.css';
 
 const Footer = () => {
-    const noNamed = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
-        { name: "Check Up", link: "/checkup" },
-    ]
     const ourAddress = [
-        { name: "New York - 101010 Hudson", link: "//google.com/map" },
-        { name: "Yards", link: "//google.com/map" },
-        { name: "Call now - 071 5273881", link: "//google.com/map" },
+        { name: "2nd post", link: "/" },
+        { name: "Maudella , Dela", link: "/" },
+        { name: "Ratnapura", link: "/" },
+        { name: "Call now - 071 5273881", link: "#" },
 
     ]
     const oralHealth = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
+        { name: "Pass O/L", link: "/" },
+        { name: "Pass A/L", link: "/" },
+        { name: "Undergraduate at SLIIT", link: "/" },
+        { name: "Associate SE 1 Year", link: "/" },
       
     ]
     const services = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
+        { name: "ReactJs | React Native", link: "/" },
+        { name: "NodeJs | KoaJs", link: "/" },
+        { name: "Java | Spring Boot", link: "/" },
+        { name: "Android | PHP", link: "/" },
+       
+    ]
+    const projects = [
+        { name: "Computer Shop Web", link: "https://dotcomcomputers.netlify.app/" },
+        { name: "Tourism Management System", link: "https://travelwithkamidu.netlify.app/" },
+        { name: "Personal Portfolio Web", link: "https://kamindugayantha.netlify.app/" },
+        { name: "Agriculture Management System", link: "/" },
        
     ]
 
@@ -36,10 +37,10 @@ const Footer = () => {
             <div className="container pt-5">
                 <div className="row md-py-5 footer-content">
                     {/* <FooterDetail key={1} menuTitle={"."} menuItems={noNamed} /> */}
-                    <FooterDetail key={2} menuTitle="Projects" menuItems={services} />
-                    <FooterDetail key={2} menuTitle="Services" menuItems={services} />
-                    <FooterDetail key={2} menuTitle="Oral Health" menuItems={oralHealth} />
-                    <FooterDetail key={3} menuTitle="Our Address" menuItems={ourAddress}/>
+                    <FooterDetail key={2} menuTitle="My Projects" menuItems={projects} />
+                    <FooterDetail key={2} menuTitle="My Skills" menuItems={services} />
+                    <FooterDetail key={2} menuTitle="My Journey" menuItems={oralHealth} />
+                    <FooterDetail key={3} menuTitle="My Address" menuItems={ourAddress}/>
                     
                     <div className="copyRight text-center">
                     <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>

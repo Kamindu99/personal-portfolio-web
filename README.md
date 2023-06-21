@@ -34,8 +34,6 @@ To run the personal portfolio web application locally, follow these steps:
 4. Start the development server: `npm start`
 5. Open your browser and visit: `http://localhost:3000`
 
-Feel free to explore the codebase, make changes, and customize the website to suit your personal preferences.
-
 If you have any questions, suggestions, or feedback, please feel free to reach out to me at [kamidugayantha123@gmail.com].
 
 Thank you for visiting my personal portfolio web repository!
