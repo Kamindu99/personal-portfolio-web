@@ -1,6 +1,6 @@
 import React from 'react'
 //@ts-ignore
-import cvFile from './MyCv/KaminduGayantha.pdf';
+import cvFile from './MyCv/KaminduGayanthaCV.pdf';
 import emailjs from 'emailjs-com';
 
 type Props = {}
@@ -14,7 +14,7 @@ const HomePage = (props: Props) => {
     link.click();
   };
 
-  const cvUrl = 'https://www.canva.com/design/DAFJBMF54Vo/1mE-mp3D_8emuac9Iw0qjQ/view?utm_content=DAFJBMF54Vo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1'; // Replace with the actual URL of your CV file
+  const cvUrl = 'https://www.canva.com/design/DAFmfC25NFc/KpVLh33EqykOB3IPFs2jCA/view?utm_content=DAFmfC25NFc&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel';
 
   const handleCVClick = () => {
     window.open(cvUrl, '_blank');
