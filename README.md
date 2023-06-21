@@ -1,13 +1,42 @@
-# personal-portfolio-web
-A personal website or portfolio is an opportunity to reach more people with your work. It's an extension of your personality and gives you the chance to craft a design that reflects who you are as a creative.
+# Personal Portfolio Web
 
 ### [Live Site](https://kamindugayantha.netlify.app/)
 
 ![ Application](https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg)
 
-Setup:
-- run ```npm i && npm start``` to start development server
+## Description
 
+Personal Portfolio Web is a web application built using TypeScript and React JS. It serves as a showcase of your skills, experience, and projects, allowing you to present yourself professionally to potential clients, employers, or collaborators.
+
+The portfolio website features a clean and modern design, providing a user-friendly experience for visitors. It includes the following key sections:
+
+- **About**: Introduce yourself, highlight your background, skills, and expertise.
+- **Projects**: Showcase your previous projects, including descriptions, screenshots, and links.
+- **Experience**: Outline your professional experience, including relevant positions and responsibilities.
+- **Skills**: Highlight your technical skills, tools, and technologies you're proficient in.
+- **Contact**: Provide contact information and a form to get in touch with you.
+
+## Features
+
+- **Responsive Design**: The website is fully responsive and optimized for different screen sizes, ensuring a consistent experience across devices.
+- **TypeScript**: Built with TypeScript for improved code quality, maintainability, and scalability.
+- **React JS**: Leveraging the power of React JS for efficient component-based development and seamless UI updates.
+- **Easy Customization**: The codebase is structured and modular, making it easy to customize and extend the website according to your needs.
+- **Accessible**: Accessibility is a priority, ensuring that all users, including those with disabilities, can navigate and interact with the website.
+
+## Getting Started
+
+To run the personal portfolio web application locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/Kamindu99/personal-portfolio-web.git`
+2. Navigate to the project directory: `cd personal-portfolio-web`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
+5. Open your browser and visit: `http://localhost:3000`
+
+Feel free to explore the codebase, make changes, and customize the website to suit your personal preferences.
+
+If you have any questions, suggestions, or feedback, please feel free to reach out to me at [kamidugayantha123@gmail.com].
 # About me
 
 ### 👨‍💻 Kamindu Gayantha
@@ -40,3 +69,5 @@ Setup:
 </a>
 
 </div>
+
+Thank you for visiting my personal portfolio web repository!
