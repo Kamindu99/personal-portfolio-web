@@ -103,7 +103,7 @@ const HomePage = (props: Props) => {
           </div>
           <div className="row align-items-center">
             <div className="col-lg-5 pb-4 pb-lg-0">
-              <img className="img-fluid rounded " style={{ height: '500px', marginTop: '-20%', marginLeft: '20%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
+              <img className="img-fluid rounded " style={{ height: '500px', marginTop: '-16%', marginLeft: '20%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
