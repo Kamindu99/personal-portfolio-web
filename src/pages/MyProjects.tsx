@@ -22,13 +22,18 @@ const MyProjects = (props: Props) => {
                 "Reviews and Ratings",
                 "Responsive Design"
             ],
-            technologies: [ 
-                "React", 
-                "TypeScript", 
-                "Bootstrap", 
-                "CSS" 
+            technologies: [
+                "React",
+                "TypeScript",
+                "Bootstrap",
+                "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
+                imagename:"2. Latest Laptops Page"}
+            ],
             url: "https://dotcomcomputers.netlify.app/"
         },
         {
@@ -54,7 +59,20 @@ const MyProjects = (props: Props) => {
                 "Bootstrap",
                 "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/resturent_g5iqk4.jpg",
+                imagename:"2. Resturents Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/flightbook_hu0win.jpg",
+                imagename:"3. Flight Booking Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/events_qgpi72.jpg",
+                imagename:"4. Event Booking Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/rentacar_mzwqyl.jpg",
+                imagename:"5. Rent a Car Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/hotels_wqltsl.jpg",
+                imagename:"6. Hotel Booking Page"}
+            ],
             url: "https://travelwithkamidu.netlify.app/"
         },
         {
@@ -76,7 +94,16 @@ const MyProjects = (props: Props) => {
                 "Bootstrap",
                 "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/homepageportfolio_bq2nno.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myexpe_dkww9y.jpg",
+                imagename:"2. Education Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myprojectsportfolio_qk7awy.jpg",
+                imagename:"3. My Projects Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/galleryportfolio_kfb8go.jpg",
+                imagename:"4. Gallery Page"}
+            ],
             url: "https://kamindugayantha.netlify.app/"
         },
         {
@@ -98,7 +125,16 @@ const MyProjects = (props: Props) => {
                 "Bootstrap",
                 "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                imagename:"2. Profile Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+                imagename:"3. About Us Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"4. Projects Page"}
+            ],
             url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
         },
         {
@@ -120,7 +156,16 @@ const MyProjects = (props: Props) => {
                 "Bootstrap",
                 "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                imagename:"2. Profile Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+                imagename:"3. About Us Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"4. Projects Page"}
+            ],
             url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
         },
         {
@@ -141,8 +186,17 @@ const MyProjects = (props: Props) => {
                 "TypeScript",
                 "Bootstrap",
                 "CSS"
-            ],   
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+            ],
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                imagename:"2. Profile Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+                imagename:"3. About Us Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"4. Projects Page"}
+            ],
             url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
         },
         {
@@ -164,7 +218,16 @@ const MyProjects = (props: Props) => {
                 "Bootstrap",
                 "CSS"
             ],
-            image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                imagename:"2. Profile Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
+                imagename:"3. About Us Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"4. Projects Page"}
+            ],
             url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
         }
     ])
@@ -232,7 +295,7 @@ const MyProjects = (props: Props) => {
                             </div>
                             <div id={project.target} className="collapse" aria-labelledby={project.id}
                                 data-parent="#accordionExample">
-                                <section className="py-5 header" style={{ backgroundColor: 'gray' }}>
+                                <section className="py-5 header" style={{ backgroundColor: '#cbcbcb1e' }}>
                                     <div className="container py-4">
 
                                         <div className="row">
@@ -287,18 +350,56 @@ const MyProjects = (props: Props) => {
                                                         <h4 className="font-italic mb-4">Technologies</h4>
                                                         <p className="font-italic text-muted mb-2">
                                                             In this project, I have used following technologies.
-                                                            <ul>
-                                                                {project.technologies.map((technology) => (
-                                                                    <li>{technology}</li>
-                                                                ))}
-                                                            </ul>
+
+                                                            <br /><br />
+                                                            {project.technologies.map((technology) => (
+                                                                <>
+                                                                    {technology == "React" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-ReactJs-gray?style=for-the-badge&logo=react" />
+                                                                    }
+                                                                    {technology == "TypeScript" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-Type_Script-bfc29b?style=for-the-badge&logo=typescript" />
+                                                                    }
+                                                                    {technology == "Bootstrap" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
+                                                                    }
+                                                                    {technology == "CSS" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
+                                                                    }
+                                                                    {technology == "MongoDB" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-mongo_db-gray?style=for-the-badge&logo=mongodb" />
+                                                                    }
+                                                                    {technology == "Express" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-ExpressJs-gray?style=for-the-badge&logo=express" />
+                                                                    }
+                                                                    {technology == "Node" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-NodeJs-gray?style=for-the-badge&logo=nodedotjs" />
+                                                                    }
+                                                                    {technology == "VsCode" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-VS_Code-gray?style=for-the-badge&logo=visualstudiocode" />
+                                                                    }
+                                                                    {technology == "Java" &&
+                                                                        <img className='me-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
+                                                                    }
+                                                                </>
+                                                            ))}
+
                                                         </p>
                                                     </div>
 
                                                     <div className="tab-pane fade shadow rounded bg-white p-5" id={`${project.id}-settings`} role="tabpanel" aria-labelledby={`${project.id}-settings-tab`}>
                                                         <h4 className="font-italic mb-4">Screens</h4>
-                                                        <div className="t-p">
-                                                            <img src={project.image} alt="" className="img-fluid" />
+                                                        <div >
+                                                            <div className="row">
+                                                                {project.image.map((img) => (
+                                                                    <div className="col-md-4 mb-3">
+                                                                        <div className="image-container project-image-container">
+                                                                        {img.imagename} <img src={img.image} alt="" className="mt-2 img-fluid" />
+                                                                        </div>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+
                                                         </div>
                                                     </div>
                                                 </div>

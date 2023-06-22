@@ -329,7 +329,7 @@ button.btn.btn-link i {
 
 .nav-pills-custom .nav-link.active {
   color: #45b649;
-  background: #fff;
+  background: #ffffff53;
 }
 
 
@@ -354,6 +354,16 @@ button.btn.btn-link i {
 }
 
 
+.project-image-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.project-image-container img {
+  max-width: 100%;
+  height: 250px;
+}
 
 
 
