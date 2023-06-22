@@ -272,7 +272,7 @@ const HomePage = (props: Props) => {
                     <strong>SLIIT</strong> | <small>2020-2024</small>
                   </p>
                   <p>
-                    I am proud to be a member of the Institute of Electrical and Electronics Engineers (IEEE) society, an esteemed
+                    I am proud to be a member of the Institute of IEEE society, an esteemed
                     global community dedicated to advancing technology and innovation. As an IEEE member, I have the opportunity to
                     connect with like-minded professionals, access valuable resources.
                   </p>
@@ -284,8 +284,9 @@ const HomePage = (props: Props) => {
                     <strong>OLAK Technologies</strong> | <small>2022-Present</small>
                   </p>
                   <p>
-                    Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor.
-                    Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam
+                  As an Associate Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and 
+                  innovative organization. OLAK Technologies is a leading company 
+                  in the software industry, specializing in delivering solutions to clients worldwide.
                   </p>
                 </div>
               </div>
