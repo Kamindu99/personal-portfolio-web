@@ -106,6 +106,7 @@ const MyProfile = (props: Props) => {
 					</div>
 				</div>
 			</body>
+
 		</div>
 	)
 }
