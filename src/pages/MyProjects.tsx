@@ -329,7 +329,7 @@ const MyProjects = (props: Props) => {
 
                                                             {project.description}
                                                             <br /> <br />
-                                                            <div> Livi Site - <Link to={project.url} style={{ textDecoration: 'none', color: "blue" }}>{project.url}</Link> </div>
+                                                            <div> Live Site - <Link to={project.url} style={{ textDecoration: 'none', color: "blue" }}>{project.url}</Link> </div>
 
                                                         </p>
                                                     </div>
