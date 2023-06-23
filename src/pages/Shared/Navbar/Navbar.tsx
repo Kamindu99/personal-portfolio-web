@@ -44,7 +44,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{ marginRight: '2%' }}>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="/#home">HOME</a>
+                            <a className={`nav-link nav-link-a-text me-5 ${isHome ? 'active' : ''}`} aria-current="page" href="/#home">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className={`nav-link nav-link-a-text me-5 ${isAboutUs ? 'active' : ''}`} href="/#about">About Me</a>
