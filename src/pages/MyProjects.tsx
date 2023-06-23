@@ -355,31 +355,31 @@ const MyProjects = (props: Props) => {
                                                             {project.technologies.map((technology) => (
                                                                 <>
                                                                     {technology == "React" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-ReactJs-gray?style=for-the-badge&logo=react" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-ReactJs-gray?style=for-the-badge&logo=react" />
                                                                     }
                                                                     {technology == "TypeScript" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-Type_Script-bfc29b?style=for-the-badge&logo=typescript" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-Type_Script-bfc29b?style=for-the-badge&logo=typescript" />
                                                                     }
                                                                     {technology == "Bootstrap" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
                                                                     }
                                                                     {technology == "CSS" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
                                                                     }
                                                                     {technology == "MongoDB" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-mongo_db-gray?style=for-the-badge&logo=mongodb" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-mongo_db-gray?style=for-the-badge&logo=mongodb" />
                                                                     }
                                                                     {technology == "Express" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-ExpressJs-gray?style=for-the-badge&logo=express" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-ExpressJs-gray?style=for-the-badge&logo=express" />
                                                                     }
                                                                     {technology == "Node" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-NodeJs-gray?style=for-the-badge&logo=nodedotjs" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-NodeJs-gray?style=for-the-badge&logo=nodedotjs" />
                                                                     }
                                                                     {technology == "VsCode" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-VS_Code-gray?style=for-the-badge&logo=visualstudiocode" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-VS_Code-gray?style=for-the-badge&logo=visualstudiocode" />
                                                                     }
                                                                     {technology == "Java" &&
-                                                                        <img className='me-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
                                                                     }
                                                                 </>
                                                             ))}
