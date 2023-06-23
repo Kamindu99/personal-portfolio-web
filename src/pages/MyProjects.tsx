@@ -303,7 +303,7 @@ const MyProjects = (props: Props) => {
 
                                                 <div className="nav flex-column nav-pills nav-pills-custom" id={`${project.id}-tab`} role="tablist" aria-orientation="vertical">
                                                     <a className="nav-link mb-3 p-3 shadow active" id={`${project.id}-home-tab`} data-toggle="pill" href={`#${project.id}-home`} role="tab" aria-controls={`${project.id}-home`} aria-selected="true">
-                                                        <i className="fa fa-user-circle-o mr-2"></i>
+                                                        <i className="fa fa-eye mr-2"></i>
                                                         <span className="font-weight-bold small text-uppercase">Project Overview</span></a>
 
                                                     <a className="nav-link mb-3 p-3 shadow" id={`${project.id}-profile-tab`} data-toggle="pill" href={`#${project.id}-profile`} role="tab" aria-controls={`${project.id}-profile`} aria-selected="false">
@@ -315,7 +315,7 @@ const MyProjects = (props: Props) => {
                                                         <span className="font-weight-bold small text-uppercase">Technologies</span></a>
 
                                                     <a className="nav-link mb-3 p-3 shadow" id={`${project.id}-settings-tab`} data-toggle="pill" href={`#${project.id}-settings`} role="tab" aria-controls={`${project.id}-settings`} aria-selected="false">
-                                                        <i className="fa fa-check mr-2"></i>
+                                                        <i className="fa fa-picture-o mr-2"></i>
                                                         <span className="font-weight-bold small text-uppercase">Screens</span></a>
                                                 </div>
                                             </div>
