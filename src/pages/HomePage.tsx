@@ -306,7 +306,7 @@ const HomePage = (props: Props) => {
                   <iframe
                     style={{ height: '100%', width: '100%', border: '0' }}
                     frameBorder="0"
-                    src="https://www.google.com/maps/embed/v1/place?q=KKD+Boarding+House,+Vihara+Mawatha,+Malabe,+Sri+Lanka&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1135.7051143299054!2d80.44636617669012!3d6.644893532946532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3c13f05a868a5%3A0xe3d8cdc3ac4c6c92!2sWanigasinghe&#39;s%20Place!5e1!3m2!1sen!2sus!4v1687534963017!5m2!1sen!2sus"
                   ></iframe>
                 </div>
                 <a className="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">
