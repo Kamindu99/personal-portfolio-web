@@ -110,32 +110,34 @@ const MyProjects = (props: Props) => {
             id: "headingFour",
             target: "collapseFour",
             title: "Agriculture Management System - (ReactJs , NodeJs , ExpressJS & MongoDB)",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            description: "This is an Agriculture Management System developed using React.js as the frontend framework, Node.js with Express.js as the backend framework, and MongoDB as the database. The system provides various features for managing agriculture-related tasks such as seed management, plant management, and fertilizer management. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across desktop and mobile platforms.",
             features: [
-                "About Me",
-                "Skills",
-                "Experiences",
-                "Projects",
-                "Contact Me",
+                "Seed Management",
+                "Plant Management",
+                "Fertilizer Management",
+                "User Authentication",
                 "Responsive Design"
             ],
             technologies: [
                 "React",
-                "TypeScript",
+                "Node",
+                "Express",
+                "MongoDB",
                 "Bootstrap",
-                "CSS"
+                "CSS",
+                "VsCode"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_3_ykx4wk.jpg",
                 imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
-                imagename:"2. Profile Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
-                imagename:"3. About Us Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"4. Projects Page"}
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_2_cecfrr.jpg",
+                imagename:"2. Plants Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_1_wrivge.jpg",
+                imagename:"3. Seeds Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672487/agrifrontend_4_den4ol.jpg",
+                imagename:"4. About Us Page"}
             ],
-            url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
+            url: "#"
         },
         {
             id: "headingFive",
