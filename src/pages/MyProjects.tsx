@@ -137,7 +137,7 @@ const MyProjects = (props: Props) => {
                 {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672487/agrifrontend_4_den4ol.jpg",
                 imagename:"4. About Us Page"}
             ],
-            url: "#"
+            url: "https://greenworldagriculture.netlify.app/"
         },
         {
             id: "headingFive",
