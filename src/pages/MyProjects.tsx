@@ -115,8 +115,8 @@ const MyProjects = (props: Props) => {
                 "Seed Management",
                 "Plant Management",
                 "Fertilizer Management",
-                "User Authentication",
-                "Responsive Design"
+                "Equipments Management",
+                "AgroChemicle Management"
             ],
             technologies: [
                 "React",
@@ -134,8 +134,16 @@ const MyProjects = (props: Props) => {
                 imagename:"2. Plants Page"},
                 {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_1_wrivge.jpg",
                 imagename:"3. Seeds Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_6_mkqjyi.jpg",
+                imagename:"4. Equipments Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_7_fawdlv.jpg",
+                imagename:"5. Fertilizer Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_8_ntpbz9.jpg",
+                imagename:"6. AgroChemicles Page"},
                 {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672487/agrifrontend_4_den4ol.jpg",
-                imagename:"4. About Us Page"}
+                imagename:"7. About Us Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_5_lmzdcz.jpg",
+                imagename:"8. Services Page"},
             ],
             url: "https://greenworldagriculture.netlify.app/"
         },
