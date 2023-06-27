@@ -219,63 +219,54 @@ const MyProjects = (props: Props) => {
             id: "headingSix",
             target: "collapseSix",
             title: "Hospital Management System - (Java & MySQL)",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            description: "This is a Hospital Management System developed using Java as the frontend framework and MySQL as the database. The system provides various features for managing hospital-related tasks such as Login page, signup page. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across desktop and mobile platforms.",
             features: [
-                "About Me",
-                "Skills",
-                "Experiences",
-                "Projects",
-                "Contact Me",
-                "Responsive Design"
+                "Login",
+                "Signup"
             ],
             technologies: [
-                "React",
-                "TypeScript",
+                "Java",
+                "MySQL",
                 "Bootstrap",
-                "CSS"
+                "CSS",
+                "HTML"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
-                imagename:"2. Profile Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
-                imagename:"3. About Us Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"4. Projects Page"}
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen1_ouk5er.jpg",
+                imagename:"1. Signup Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen2_vitezw.jpg",
+                imagename:"2. Login Page"}
             ],
-            url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
+            url: "#"
         },
         {
             id: "headingSeven",
             target: "collapseSeven",
-            title: "Food Ordering System - (Android , Java , & Firebase)",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            title: "Food Ordering System - (Android , Java , & Firebase -> Mobile App)",
+            description: "This is a Food Ordering System developed using Java as the frontend framework and Firebase as the database. The system provides various features for managing food-related tasks such as Login page, signup page, food ordering page. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across Mobile platforms.",
             features: [
-                "About Me",
-                "Skills",
-                "Experiences",
-                "Projects",
-                "Contact Me",
-                "Responsive Design"
+               "Food Management",
+               "Table Booking",
+                "Delivery Management",
+                "Inquiry Management"
             ],
             technologies: [
-                "React",
-                "TypeScript",
-                "Bootstrap",
-                "CSS"
+                "Java",
+                "Android",
+                "Firebase",
+                "Javascript",
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
-                imagename:"2. Profile Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
-                imagename:"3. About Us Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"4. Projects Page"}
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_2_ckhfod.jpg",
+                imagename:"1. My Order Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904882/mdd1_1_qs6c7v.jpg",
+                imagename:"2. Add Delivery Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_3_aqv6cw.jpg",
+                imagename:"3. Edit Delivery Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_4_gnxwo2.jpg",
+                imagename:"4. Order Status Page"},
             ],
-            url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
+            url: "#"
         }
     ])
 
