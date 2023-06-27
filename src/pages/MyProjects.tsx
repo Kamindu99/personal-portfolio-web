@@ -7,36 +7,6 @@ const MyProjects = (props: Props) => {
 
     const [projects, setProjects] = React.useState([
         {
-            id: "headingOne",
-            target: "collapseOne",
-            title: "Computer Shop Management System - (ReactJs & TypeScript)",
-            description: "The computer shop application is a modern, user-friendly web application developed using TypeScript and React. It offers customers a seamless and convenient shopping experience for computer-related products. Users can explore a diverse catalog of laptops, desktops, peripherals, and accessories, with detailed product information, including specifications, pricing, reviews, and ratings. The application incorporates essential features such as a shopping cart, user authentication, secure checkout and payment options, order tracking, and a search functionality. It also encourages customer engagement through reviews and ratings, helping users make informed purchasing decisions. With its responsive design, the computer shop application ensures a consistent and enjoyable experience across various devices.",
-            features: [
-                "Product Catalog",
-                "Shopping Cart",
-                "User Authentication",
-                "Secure Checkout",
-                "Payment Options",
-                "Order Tracking",
-                "Search Functionality",
-                "Reviews and Ratings",
-                "Responsive Design"
-            ],
-            technologies: [
-                "React",
-                "TypeScript",
-                "Bootstrap",
-                "CSS"
-            ],
-            image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
-                imagename:"2. Latest Laptops Page"}
-            ],
-            url: "https://dotcomcomputers.netlify.app/"
-        },
-        {
             id: "headingTwo",
             target: "collapseTwo",
             title: "Tourism Management System - (ReactJs , NodeJs & MongoDB)",
@@ -74,37 +44,6 @@ const MyProjects = (props: Props) => {
                 imagename:"6. Hotel Booking Page"}
             ],
             url: "https://travelwithkamidu.netlify.app/"
-        },
-        {
-            id: "headingThree",
-            target: "collapseThree",
-            title: "Personal Portfolio Website - (ReactJs & TypeScript)",
-            description: "I developed a Personal Portfolio Web application using React.js, TypeScript, Bootstrap, and CSS. This dynamic web application serves as a showcase of my skills, experiences, and projects, providing visitors with a comprehensive overview of my professional background. The Personal Portfolio Web application offers a visually appealing and user-friendly interface, allowing visitors to explore my portfolio and learn more about my expertise and achievements. It is designed to be responsive and compatible with various devices, ensuring a seamless user experience across desktop and mobile platforms.",
-            features: [
-                "About Me",
-                "Skills",
-                "Experiences",
-                "Projects",
-                "Contact Me",
-                "Responsive Design"
-            ],
-            technologies: [
-                "React",
-                "TypeScript",
-                "Bootstrap",
-                "CSS"
-            ],
-            image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/homepageportfolio_bq2nno.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myexpe_dkww9y.jpg",
-                imagename:"2. Education Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myprojectsportfolio_qk7awy.jpg",
-                imagename:"3. My Projects Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/galleryportfolio_kfb8go.jpg",
-                imagename:"4. Gallery Page"}
-            ],
-            url: "https://kamindugayantha.netlify.app/"
         },
         {
             id: "headingFour",
@@ -148,10 +87,40 @@ const MyProjects = (props: Props) => {
             url: "https://greenworldagriculture.netlify.app/"
         },
         {
-            id: "headingFive",
-            target: "collapseFive",
-            title: "Travel Management System - (ReactJs , NodeJs , ExpressJS & MongoDB)",
-            description: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            id: "headingOne",
+            target: "collapseOne",
+            title: "Computer Shop Management System - (ReactJs & TypeScript)",
+            description: "The computer shop application is a modern, user-friendly web application developed using TypeScript and React. It offers customers a seamless and convenient shopping experience for computer-related products. Users can explore a diverse catalog of laptops, desktops, peripherals, and accessories, with detailed product information, including specifications, pricing, reviews, and ratings. The application incorporates essential features such as a shopping cart, user authentication, secure checkout and payment options, order tracking, and a search functionality. It also encourages customer engagement through reviews and ratings, helping users make informed purchasing decisions. With its responsive design, the computer shop application ensures a consistent and enjoyable experience across various devices.",
+            features: [
+                "Product Catalog",
+                "Shopping Cart",
+                "User Authentication",
+                "Secure Checkout",
+                "Payment Options",
+                "Order Tracking",
+                "Search Functionality",
+                "Reviews and Ratings",
+                "Responsive Design"
+            ],
+            technologies: [
+                "React",
+                "TypeScript",
+                "Bootstrap",
+                "CSS"
+            ],
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
+                imagename:"2. Latest Laptops Page"}
+            ],
+            url: "https://dotcomcomputers.netlify.app/"
+        },
+        {
+            id: "headingThree",
+            target: "collapseThree",
+            title: "Personal Portfolio Website - (ReactJs & TypeScript)",
+            description: "I developed a Personal Portfolio Web application using React.js, TypeScript, Bootstrap, and CSS. This dynamic web application serves as a showcase of my skills, experiences, and projects, providing visitors with a comprehensive overview of my professional background. The Personal Portfolio Web application offers a visually appealing and user-friendly interface, allowing visitors to explore my portfolio and learn more about my expertise and achievements. It is designed to be responsive and compatible with various devices, ensuring a seamless user experience across desktop and mobile platforms.",
             features: [
                 "About Me",
                 "Skills",
@@ -167,16 +136,84 @@ const MyProjects = (props: Props) => {
                 "CSS"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/homepageportfolio_bq2nno.jpg",
                 imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
-                imagename:"2. Profile Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687292391/potfolioappmy_imyf7n.jpg",
-                imagename:"3. About Us Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"4. Projects Page"}
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myexpe_dkww9y.jpg",
+                imagename:"2. Education Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myprojectsportfolio_qk7awy.jpg",
+                imagename:"3. My Projects Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/galleryportfolio_kfb8go.jpg",
+                imagename:"4. Gallery Page"}
             ],
-            url: "https://miro.medium.com/v2/resize:fit:2400/1*Atv7s1TO3VSEfNpq_2nc1A.jpeg"
+            url: "https://kamindugayantha.netlify.app/"
+        },
+        {
+            id: "headingeight",
+            target: "collapseEight",
+            title: "Online Food Ordering System - (ReactJs , NodeJs , ExpressJS & MongoDB)",
+            description: " This is an Online Food Ordering System developed using React.js as the frontend framework, Node.js with Express.js as the backend framework, and MongoDB as the database. The system provides various features for managing food-related tasks such as food management, order management, and delivery management. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across desktop and mobile platforms.",
+            features: [
+                "Food Management",
+                "Delivery Management",
+                "Table Management",
+                "User Management",
+                "Inquiry Management"
+            ],
+            technologies: [
+                "React",
+                "Node",
+                "Express",
+                "MongoDB",
+                "Bootstrap",
+                "CSS",
+                "VsCode"
+            ],
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen3_d4ltln.jpg",
+                imagename:"1. Food List Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen1_ebmdlp.jpg",
+                imagename:"2. Order Food Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen2_nngypf.jpg",
+                imagename:"3. Sign Up Page"}
+            ],
+            url: "https://slfoodfactory.netlify.app/"
+        },
+        {
+            id: "headingFive",
+            target: "collapseFive",
+            title: "Travel Management System - (ReactJs , NodeJs , ExpressJS & MongoDB)",
+            description: "SLIIT 2nd Year 2nd Semester ITP Project. A web application which provides functions for the user including selceting travel packages, booking room packages, buying equipments,etc. while admin is allowed to add travel packages and manage the whole system. My Role - Travel Package Management Function Technologies - React Js, Node Js, Mongo DB, Express, Git, VS Code",
+            features: [
+                "Travel Packages Management",
+                "Hotel Management",
+                "Guide Management",
+                "Activity Management",
+                "Equipment Management",
+                "Admin Management",
+                "User Management"
+            ],
+            technologies: [
+                "React",
+                "Node",
+                "Express",
+                "MongoDB",
+                "Bootstrap",
+                "CSS",
+                "VsCode"
+            ],
+            image: [
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen4_ammgzi.jpg",
+                imagename:"1. Home Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen5_lesoij.jpg",
+                imagename:"2. Travel Packages Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen3_fs0abi.jpg",
+                imagename:"3. Travel Package Details Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen2_fl3gpl.jpg",
+                imagename:"4. Booking Travel Packages Page"},
+                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen1_zsbr3u.jpg",
+                imagename:"5. Admin Dashboard Page"},
+            ],
+            url: "https://dreamtravelers.netlify.app/"
         },
         {
             id: "headingSix",
