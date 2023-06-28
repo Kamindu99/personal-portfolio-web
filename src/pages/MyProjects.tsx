@@ -27,21 +27,35 @@ const MyProjects = (props: Props) => {
                 "Express",
                 "MongoDB",
                 "Bootstrap",
-                "CSS"
+                "CSS",
+                "VsCode",
+                "Github"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/resturent_g5iqk4.jpg",
-                imagename:"2. Resturents Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/flightbook_hu0win.jpg",
-                imagename:"3. Flight Booking Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/events_qgpi72.jpg",
-                imagename:"4. Event Booking Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/rentacar_mzwqyl.jpg",
-                imagename:"5. Rent a Car Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/hotels_wqltsl.jpg",
-                imagename:"6. Hotel Booking Page"}
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1685267799/travelwebkamindu_r6xqqh.jpg",
+                    imagename: "1. Home Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/resturent_g5iqk4.jpg",
+                    imagename: "2. Resturents Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/flightbook_hu0win.jpg",
+                    imagename: "3. Flight Booking Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431551/events_qgpi72.jpg",
+                    imagename: "4. Event Booking Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/rentacar_mzwqyl.jpg",
+                    imagename: "5. Rent a Car Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431550/hotels_wqltsl.jpg",
+                    imagename: "6. Hotel Booking Page"
+                }
             ],
             url: "https://travelwithkamidu.netlify.app/"
         },
@@ -64,25 +78,42 @@ const MyProjects = (props: Props) => {
                 "MongoDB",
                 "Bootstrap",
                 "CSS",
-                "VsCode"
+                "VsCode",
+                "Github"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_3_ykx4wk.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_2_cecfrr.jpg",
-                imagename:"2. Plants Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_1_wrivge.jpg",
-                imagename:"3. Seeds Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_6_mkqjyi.jpg",
-                imagename:"4. Equipments Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_7_fawdlv.jpg",
-                imagename:"5. Fertilizer Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_8_ntpbz9.jpg",
-                imagename:"6. AgroChemicles Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672487/agrifrontend_4_den4ol.jpg",
-                imagename:"7. About Us Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_5_lmzdcz.jpg",
-                imagename:"8. Services Page"},
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_3_ykx4wk.jpg",
+                    imagename: "1. Home Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_2_cecfrr.jpg",
+                    imagename: "2. Plants Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672488/agrifrontend_1_wrivge.jpg",
+                    imagename: "3. Seeds Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_6_mkqjyi.jpg",
+                    imagename: "4. Equipments Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_7_fawdlv.jpg",
+                    imagename: "5. Fertilizer Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_8_ntpbz9.jpg",
+                    imagename: "6. AgroChemicles Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687672487/agrifrontend_4_den4ol.jpg",
+                    imagename: "7. About Us Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687779274/agrifrontend_5_lmzdcz.jpg",
+                    imagename: "8. Services Page"
+                },
             ],
             url: "https://greenworldagriculture.netlify.app/"
         },
@@ -106,13 +137,21 @@ const MyProjects = (props: Props) => {
                 "React",
                 "TypeScript",
                 "Bootstrap",
-                "CSS"
+                "CSS",
+                "Github",
+                "VsCode",
+                "NoBackend",
+                "NoDatabase"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
-                imagename:"2. Latest Laptops Page"}
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                    imagename: "1. Home Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
+                    imagename: "2. Latest Laptops Page"
+                }
             ],
             url: "https://dotcomcomputers.netlify.app/"
         },
@@ -133,17 +172,29 @@ const MyProjects = (props: Props) => {
                 "React",
                 "TypeScript",
                 "Bootstrap",
-                "CSS"
+                "CSS",
+                "Github",
+                "VsCode",
+                "NoBackend",
+                "NoDatabase"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/homepageportfolio_bq2nno.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myexpe_dkww9y.jpg",
-                imagename:"2. Education Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myprojectsportfolio_qk7awy.jpg",
-                imagename:"3. My Projects Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/galleryportfolio_kfb8go.jpg",
-                imagename:"4. Gallery Page"}
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/homepageportfolio_bq2nno.jpg",
+                    imagename: "1. Home Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myexpe_dkww9y.jpg",
+                    imagename: "2. Education Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/myprojectsportfolio_qk7awy.jpg",
+                    imagename: "3. My Projects Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431498/galleryportfolio_kfb8go.jpg",
+                    imagename: "4. Gallery Page"
+                }
             ],
             url: "https://kamindugayantha.netlify.app/"
         },
@@ -166,15 +217,22 @@ const MyProjects = (props: Props) => {
                 "MongoDB",
                 "Bootstrap",
                 "CSS",
-                "VsCode"
+                "VsCode",
+                "Github"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen3_d4ltln.jpg",
-                imagename:"1. Food List Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen1_ebmdlp.jpg",
-                imagename:"2. Order Food Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen2_nngypf.jpg",
-                imagename:"3. Sign Up Page"}
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen3_d4ltln.jpg",
+                    imagename: "1. Food List Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen1_ebmdlp.jpg",
+                    imagename: "2. Order Food Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687888286/foodorderscreen2_nngypf.jpg",
+                    imagename: "3. Sign Up Page"
+                }
             ],
             url: "https://slfoodfactory.netlify.app/"
         },
@@ -199,19 +257,30 @@ const MyProjects = (props: Props) => {
                 "MongoDB",
                 "Bootstrap",
                 "CSS",
-                "VsCode"
+                "VsCode",
+                "Github"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen4_ammgzi.jpg",
-                imagename:"1. Home Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen5_lesoij.jpg",
-                imagename:"2. Travel Packages Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen3_fs0abi.jpg",
-                imagename:"3. Travel Package Details Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen2_fl3gpl.jpg",
-                imagename:"4. Booking Travel Packages Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen1_zsbr3u.jpg",
-                imagename:"5. Admin Dashboard Page"},
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen4_ammgzi.jpg",
+                    imagename: "1. Home Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897821/dreamtravelscreen5_lesoij.jpg",
+                    imagename: "2. Travel Packages Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen3_fs0abi.jpg",
+                    imagename: "3. Travel Package Details Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen2_fl3gpl.jpg",
+                    imagename: "4. Booking Travel Packages Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687897820/dreamtravelscreen1_zsbr3u.jpg",
+                    imagename: "5. Admin Dashboard Page"
+                },
             ],
             url: "https://dreamtravelers.netlify.app/"
         },
@@ -229,13 +298,19 @@ const MyProjects = (props: Props) => {
                 "MySQL",
                 "Bootstrap",
                 "CSS",
-                "HTML"
+                "HTML",
+                "Github",
+                "Eclipse"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen1_ouk5er.jpg",
-                imagename:"1. Signup Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen2_vitezw.jpg",
-                imagename:"2. Login Page"}
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen1_ouk5er.jpg",
+                    imagename: "1. Signup Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904908/javapscreen2_vitezw.jpg",
+                    imagename: "2. Login Page"
+                }
             ],
             url: "#"
         },
@@ -245,26 +320,35 @@ const MyProjects = (props: Props) => {
             title: "Food Ordering System - (Android , Java , & Firebase -> Mobile App)",
             description: "This is a Food Ordering System developed using Java as the frontend framework and Firebase as the database. The system provides various features for managing food-related tasks such as Login page, signup page, food ordering page. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across Mobile platforms.",
             features: [
-               "Food Management",
-               "Table Booking",
+                "Food Management",
+                "Table Booking",
                 "Delivery Management",
                 "Inquiry Management"
             ],
             technologies: [
                 "Java",
-                "Android",
                 "Firebase",
                 "Javascript",
+                "AndroidStudio",
+                "Github"
             ],
             image: [
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_2_ckhfod.jpg",
-                imagename:"1. My Order Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904882/mdd1_1_qs6c7v.jpg",
-                imagename:"2. Add Delivery Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_3_aqv6cw.jpg",
-                imagename:"3. Edit Delivery Page"},
-                {image:"https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_4_gnxwo2.jpg",
-                imagename:"4. Order Status Page"},
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_2_ckhfod.jpg",
+                    imagename: "1. My Order Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904882/mdd1_1_qs6c7v.jpg",
+                    imagename: "2. Add Delivery Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_3_aqv6cw.jpg",
+                    imagename: "3. Edit Delivery Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_4_gnxwo2.jpg",
+                    imagename: "4. Order Status Page"
+                },
             ],
             url: "#"
         }
@@ -390,37 +474,118 @@ const MyProjects = (props: Props) => {
                                                             In this project, I have used following technologies.
 
                                                             <br /><br />
-                                                            {project.technologies.map((technology) => (
-                                                                <>
-                                                                    {technology == "React" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-ReactJs-gray?style=for-the-badge&logo=react" />
-                                                                    }
-                                                                    {technology == "TypeScript" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-Type_Script-bfc29b?style=for-the-badge&logo=typescript" />
-                                                                    }
-                                                                    {technology == "Bootstrap" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
-                                                                    }
-                                                                    {technology == "CSS" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
-                                                                    }
-                                                                    {technology == "MongoDB" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-mongo_db-gray?style=for-the-badge&logo=mongodb" />
-                                                                    }
-                                                                    {technology == "Express" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-ExpressJs-gray?style=for-the-badge&logo=express" />
-                                                                    }
-                                                                    {technology == "Node" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-NodeJs-gray?style=for-the-badge&logo=nodedotjs" />
-                                                                    }
-                                                                    {technology == "VsCode" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-VS_Code-gray?style=for-the-badge&logo=visualstudiocode" />
-                                                                    }
-                                                                    {technology == "Java" &&
-                                                                        <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
-                                                                    }
-                                                                </>
-                                                            ))}
+
+                                                            <i className="fa fa-angle-right  mb-3"></i>  Frontend Development -
+                                                            
+                                                            <div className='ms-5'>
+                                                                {project.technologies.map((technology) => (
+                                                                    <>
+                                                                        {technology == "React" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-ReactJs-gray?style=for-the-badge&logo=react" />
+                                                                        }
+                                                                        {technology == "TypeScript" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Type_Script-bfc29b?style=for-the-badge&logo=typescript" />
+                                                                        }
+                                                                        {technology == "Bootstrap" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
+                                                                        }
+                                                                        {technology == "CSS" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
+                                                                        }
+                                                                        {technology == "HTML" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-HTML-gray?style=for-the-badge&logo=html5" />
+                                                                        }
+                                                                        {technology == "Javascript" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Javascript-gray?style=for-the-badge&logo=javascript" />
+                                                                        }
+
+                                                                        {technology == "Java" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        }
+                                                                    </>
+                                                                ))}
+                                                            </div>
+
+
+                                                            <i className="fa fa-angle-right  mb-3"></i>  Backend Development -
+                                                           
+                                                            <div className='ms-5'>
+                                                                {project.technologies.map((technology) => (
+                                                                    <>
+
+                                                                        {technology == "Express" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-ExpressJs-gray?style=for-the-badge&logo=express" />
+                                                                        }
+                                                                        {technology == "Node" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-NodeJs-gray?style=for-the-badge&logo=nodedotjs" />
+                                                                        }
+
+                                                                        {technology == "Java" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        }
+                                                                         {technology == "NoBackend" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Backend-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
+
+                                                                    </>
+                                                                ))}
+                                                            </div>
+
+
+                                                            <i className="fa fa-angle-right  mb-3"></i>  Database -
+                                                          
+                                                            <div className='ms-5'>
+                                                                {project.technologies.map((technology) => (
+                                                                    <>
+                                                                        {technology == "MongoDB" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-mongo_db-gray?style=for-the-badge&logo=mongodb" />
+                                                                        }
+                                                                        {technology == "MySQL" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-MySQL-ded3d3?style=for-the-badge&logo=mysql" />
+                                                                        }
+                                                                        {technology == "Firebase" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Firebase-gray?style=for-the-badge&logo=firebase" />
+                                                                        }
+                                                                         {technology == "NoDatabase" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Database-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
+                                                                    </>
+                                                                ))}
+                                                            </div>
+
+
+                                                            <i className="fa fa-angle-right  mb-3"></i>   Version Control -
+                                                           
+                                                            <div className='ms-5'>
+                                                                {project.technologies.map((technology) => (
+                                                                    <>
+                                                                        {technology == "Github" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Git_Hub-gray?style=for-the-badge&logo=github" />
+                                                                        }
+                                                                    </>
+                                                                ))}
+                                                            </div>
+
+
+                                                            <i className="fa fa-angle-right mb-3"></i>  Code Editor -
+                                                           
+                                                            <div className='ms-5'>
+                                                                {project.technologies.map((technology) => (
+                                                                    <>
+                                                                        {technology == "VsCode" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-VS_Code-gray?style=for-the-badge&logo=visualstudiocode" />
+                                                                        }
+                                                                        {technology == "AndroidStudio" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Android_Studio-gray?style=for-the-badge&logo=androidstudio" />
+                                                                        }
+                                                                        {technology == "Eclipse" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Eclipse_IDE-gray?style=for-the-badge&logo=eclipseide" />
+                                                                        }
+
+                                                                    </>
+                                                                ))}
+                                                            </div>
+                                                          
 
                                                         </p>
                                                     </div>
@@ -432,7 +597,7 @@ const MyProjects = (props: Props) => {
                                                                 {project.image.map((img) => (
                                                                     <div className="col-md-4 mb-3">
                                                                         <div className="image-container project-image-container">
-                                                                        {img.imagename} <img src={img.image} alt="" className="mt-2 img-fluid" />
+                                                                            {img.imagename} <img src={img.image} alt="" className="mt-2 img-fluid" />
                                                                         </div>
                                                                     </div>
                                                                 ))}
@@ -448,10 +613,11 @@ const MyProjects = (props: Props) => {
 
                             </div>
                         </div>
-                    ))}
-                </div>
-            </div>
-        </div>
+                    ))
+                    }
+                </div >
+            </div >
+        </div >
     )
 }
 
