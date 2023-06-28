@@ -7,7 +7,7 @@ const Footer = () => {
         { name: "2nd post", link: "/" },
         { name: "Maudella , Dela", link: "/" },
         { name: "Ratnapura", link: "/" },
-        { name: "Call now - 071 5273881", link: "#" },
+        { name: "Contact - 071 5273881", link: "#" },
 
     ]
     const oralHealth = [
@@ -28,14 +28,14 @@ const Footer = () => {
         { name: "Computer Shop Web", link: "https://dotcomcomputers.netlify.app/" },
         { name: "Tourism Management System", link: "https://travelwithkamidu.netlify.app/" },
         { name: "Personal Portfolio Web", link: "https://kamindugayantha.netlify.app/" },
-        { name: "Agriculture Management System", link: "/" },
+        { name: "Agriculture Management System", link: "https://greenworldagriculture.netlify.app/" },
        
     ]
 
     return (
         <footer className="footer-area clear-both sm-pe-5 mt-5">
             <div className="container pt-5">
-                <div className="row md-py-5 footer-content">
+                <div className="row md-py-5 footer-content ms-5">
                     {/* <FooterDetail key={1} menuTitle={"."} menuItems={noNamed} /> */}
                     <FooterDetail key={2} menuTitle="My Projects" menuItems={projects} />
                     <FooterDetail key={2} menuTitle="My Skills" menuItems={services} />
@@ -43,7 +43,8 @@ const Footer = () => {
                     <FooterDetail key={3} menuTitle="My Address" menuItems={ourAddress}/>
                     
                     <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved</p>
+                    <p className='text-muted'> Designed & Developed by <a href="https://kamindugayantha.netlify.app/" style={{color:'#5a5a5a',textDecoration:'none'}} target="_blank">Kamindu Gayantha</a></p>
+
                 </div>
                 </div>
               
