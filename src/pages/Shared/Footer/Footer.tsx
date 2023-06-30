@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                         <div className="col-md-2 col-sm-2 col-xs-2"></div>
                         <div className="col-md-2 col-sm-2 col-xs-2">
-                            <h5 className="heading">Skils</h5>
+                            <h5 className="heading">Skills</h5>
                             <ul>
                                 <li>Web Development</li>
                                 <li>Database Handle</li>
