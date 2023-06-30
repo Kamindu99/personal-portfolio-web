@@ -32,7 +32,7 @@ const Footer = () => {
                             <h5 className="heading">Skils</h5>
                             <ul>
                                 <li>Web Development</li>
-                                <li>Database Handl</li>
+                                <li>Database Handle</li>
                                 <li>Cloud</li>
                                 <li>Mobile App</li>
                             </ul>
