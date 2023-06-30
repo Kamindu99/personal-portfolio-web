@@ -11,8 +11,8 @@ const Footer = () => {
                         <div className="col-md-4 col-sm-4 col-xs-4">
                             <div className="footer-text pull-left">
                                 <div className="d-flex">
-                                    <h1 className="font-weight-bold me-2 px-3" style={{ color: "white", backgroundColor: "#957bda" }}> K </h1>
-                                    <h1 style={{ color: "#957bda" }}>Kamindu</h1>
+                                    <h1 className="font-weight-bold me-2 px-3" style={{ color: "white", backgroundColor: "#8ca3ba" }}> K </h1>
+                                    <h2 style={{ color: "#8ca3ba" }}>Kamindu Gayantha</h2>
                                 </div>
                                 <p className="card-text">
                                     I am a Software Engineer with 1 year of experience in the IT industry.
