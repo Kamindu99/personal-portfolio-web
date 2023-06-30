@@ -1,19 +1,55 @@
-.footer-area{
-    background-size: cover;
-    background-color: #0000002c;
+.myfootecss {
+
 }
-.footer-area li{
-    padding-bottom: 10px;
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+.myfootecss ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
 }
-.social-media .icon{
-    height: 40px;
-    width: 40px;
-    color: #1cc7c1;
-    border-radius: 50%;
-    border: 1px solid #6ACECE;
-    padding: 10px;
+
+.myfootecss ul>li {
+    padding: 4px;
+    color:#808080;
 }
-.social-media .active-icon{
-    background-color: #6ACECE ;
-    color:white;
+
+.myfootecss ul>li:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.myfootecss hr {
+    border-width: 3px
+}
+
+.myfootecss .card {
+    padding: 2% 7%;
+    border: 0px;
+    background-color: rgba(225, 224, 224, 0.5);
+    border-radius: 0px;
+}
+
+.myfootecss .social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.myfootecss .social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.myfootecss .policy>div {
+    padding: 4px
+}
+
+.myfootecss .heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+}
+
+.myfootecss .divider {
+    border-top: 2px solid
 }
