@@ -145,13 +145,29 @@ const MyProjects = (props: Props) => {
             ],
             image: [
                 {
-                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384201/dotcomcomputers.net_bc1ms6.jpg",
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402835/dotcomcomputers_6_k3a4fz.jpg",
                     imagename: "1. Home Page"
                 },
                 {
-                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687431561/dotcomlatast_ietygx.jpg",
-                    imagename: "2. Latest Laptops Page"
-                }
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402835/dotcomcomputers_5_nnavpt.jpg",
+                    imagename: "2. Laptops Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402835/dotcomcomputers_4_yzd9ss.jpg",
+                    imagename: "3. Desktops Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402835/dotcomcomputers_3_yybhvw.jpg",
+                    imagename: "4. Accessories Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402835/dotcomcomputers_2_kf8dky.jpg",
+                    imagename: "5. Softwares Page"
+                },
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1688402834/dotcomcomputers_1_honlky.jpg",
+                    imagename: "6. Cart Page"
+                },
             ],
             url: "https://dotcomcomputers.netlify.app/"
         },
