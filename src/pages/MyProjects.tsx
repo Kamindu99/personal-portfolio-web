@@ -397,7 +397,7 @@ const MyProjects = (props: Props) => {
                 }
 
             ],
-            url: "#"
+            url: "https://studentmanagementweb.netlify.app/"
         },
         {
             id: "headingTen",
@@ -427,7 +427,7 @@ const MyProjects = (props: Props) => {
                 }
 
             ],
-            url: "#"
+            url: "https://simpleunitconvertapp.netlify.app/"
         },
         {
             id: "headingEleven",
