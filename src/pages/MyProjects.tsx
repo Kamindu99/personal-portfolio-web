@@ -333,7 +333,7 @@ const MyProjects = (props: Props) => {
         {
             id: "headingSeven",
             target: "collapseSeven",
-            title: "Food Ordering System - (Android , Java , & Firebase -> Mobile App)",
+            title: "Food Ordering System - (Android Mobile App)",
             description: "This is a Food Ordering System developed using Java as the frontend framework and Firebase as the database. The system provides various features for managing food-related tasks such as Login page, signup page, food ordering page. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across Mobile platforms.",
             features: [
                 "Food Management",
@@ -365,6 +365,95 @@ const MyProjects = (props: Props) => {
                     image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1687904883/mdd1_4_gnxwo2.jpg",
                     imagename: "4. Order Status Page"
                 },
+            ],
+            url: "#"
+        },
+        {
+            id: "headingNine",
+            target: "collapseNine",
+            title: "Student Management System - (PHP, HTML, CSS & MySQL)",
+            description: "This is a Student Management System developed using PHP as the frontend framework and MySQL as the database. The system provides various features for managing student-related tasks such as Login page, signup page.",
+            features: [
+                "Login",
+                "Signup",
+                "Student Profile",
+                "Profile Update",
+                "Profile Delete",
+            ],
+            technologies: [
+                "PHP",
+                "HTML",
+                "CSS",
+                "MySQL",
+                "Bootstrap",
+                "Javascript",
+                "VsCode",
+                "Github"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1689184513/studentmanagement_frffjk.jpg",
+                    imagename: "1. Student Registration Page"
+                }
+
+            ],
+            url: "#"
+        },
+        {
+            id: "headingTen",
+            target: "collapseTen",
+            title: "Unit Converter Website - (HTML, CSS & Javascript)",
+            description: "This is a Unit Converter Website developed using HTML, CSS & Javascript. The system provides various features for converting units such as Length, Temperature, Weight, Currency.",
+            features: [
+                "Length Converter",
+                "Temperature Converter",
+                "Weight Converter",
+                "Currency Converter"
+            ],
+            technologies: [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "Javascript",
+                "VsCode",
+                "Github",
+                "NoBackend",
+                "NoDatabase"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1689169883/unitconerter_h7qeup.jpg",
+                    imagename: "1. Temperature Converter Page"
+                }
+
+            ],
+            url: "#"
+        },
+        {
+            id: "headingEleven",
+            target: "collapseEleven",
+            title: "Employee Management RestApi  - (Spring Boot & MySQL)",
+            description: "This is a Employee Management RestApi developed using Spring Boot & MySQL. The system provides various features for managing employee-related tasks such as register employee, update employee, delete employee, get employee details.",
+            features: [
+                "Register Employee",
+                "Update Employee",
+                "Delete Employee",
+                "Get All Employee",
+                "Get Employee Details"
+            ],
+            technologies: [
+                "SpringBoot",
+                "MySQL",
+                "VsCode",
+                "Github",
+                "NoFrontend"
+            ],
+            image: [
+                // {
+                //     image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1689169883/unitconerter_h7qeup.jpg",
+                //     imagename: "1. Temperature Converter Page"
+                // }
+
             ],
             url: "#"
         }
@@ -492,7 +581,7 @@ const MyProjects = (props: Props) => {
                                                             <br /><br />
 
                                                             <i className="fa fa-angle-right  mb-3"></i>  Frontend Development -
-                                                            
+
                                                             <div className='ms-5'>
                                                                 {project.technologies.map((technology) => (
                                                                     <>
@@ -518,13 +607,19 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "Java" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
                                                                         }
+                                                                        {technology == "PHP" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-PHP-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        }
+                                                                        {technology == "NoFrontend" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Frontend-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
                                                                     </>
                                                                 ))}
                                                             </div>
 
 
                                                             <i className="fa fa-angle-right  mb-3"></i>  Backend Development -
-                                                           
+
                                                             <div className='ms-5'>
                                                                 {project.technologies.map((technology) => (
                                                                     <>
@@ -539,17 +634,22 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "Java" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Java-gray?style=for-the-badge&logo=coffeescript" />
                                                                         }
-                                                                         {technology == "NoBackend" &&
+                                                                        {technology == "NoBackend" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Backend-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
-
+                                                                        {technology == "PHP" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-PHP-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        }
+                                                                        {technology == "SpringBoot" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Spring_Boot-gray?style=for-the-badge&logo=coffeescript" />
+                                                                        }
                                                                     </>
                                                                 ))}
                                                             </div>
 
 
                                                             <i className="fa fa-angle-right  mb-3"></i>  Database -
-                                                          
+
                                                             <div className='ms-5'>
                                                                 {project.technologies.map((technology) => (
                                                                     <>
@@ -562,7 +662,7 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "Firebase" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Firebase-gray?style=for-the-badge&logo=firebase" />
                                                                         }
-                                                                         {technology == "NoDatabase" &&
+                                                                        {technology == "NoDatabase" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Database-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
                                                                     </>
@@ -571,7 +671,7 @@ const MyProjects = (props: Props) => {
 
 
                                                             <i className="fa fa-angle-right  mb-3"></i>   Version Control -
-                                                           
+
                                                             <div className='ms-5'>
                                                                 {project.technologies.map((technology) => (
                                                                     <>
@@ -584,7 +684,7 @@ const MyProjects = (props: Props) => {
 
 
                                                             <i className="fa fa-angle-right mb-3"></i>  Code Editor -
-                                                           
+
                                                             <div className='ms-5'>
                                                                 {project.technologies.map((technology) => (
                                                                     <>
@@ -601,7 +701,7 @@ const MyProjects = (props: Props) => {
                                                                     </>
                                                                 ))}
                                                             </div>
-                                                          
+
 
                                                         </p>
                                                     </div>
