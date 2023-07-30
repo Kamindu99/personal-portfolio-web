@@ -143,7 +143,7 @@ const HomePage = (props: Props) => {
             <div className="col-md-6">
               <div className="skill mb-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Javascript</h6>
+                  <h6 className="font-weight-bold">React Js</h6>
                   <h6 className="font-weight-bold">90%</h6>
                 </div>
                 <div className="progress">
@@ -152,11 +152,11 @@ const HomePage = (props: Props) => {
               </div>
               <div className="skill mb-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">HTML|CSS</h6>
-                  <h6 className="font-weight-bold">95%</h6>
+                  <h6 className="font-weight-bold">Node Js | Express Js</h6>
+                  <h6 className="font-weight-bold">90%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar bg-warning" role="progressbar" style={{ width: `95%` }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar bg-warning" role="progressbar" style={{ width: `90%` }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
               <div className="skill mb-4">
@@ -168,20 +168,29 @@ const HomePage = (props: Props) => {
                   <div className="progress-bar bg-danger" role="progressbar" style={{ width: `70%` }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
+              <div className="skill mb-4">
+                <div className="d-flex justify-content-between">
+                  <h6 className="font-weight-bold">SQL</h6>
+                  <h6 className="font-weight-bold">75%</h6>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar" role="progressbar" style={{ width: `75%`,backgroundColor:'#ba02ba' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                </div>
+              </div>
             </div>
             <div className="col-md-6">
               <div className="skill mb-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Android</h6>
-                  <h6 className="font-weight-bold">80%</h6>
+                  <h6 className="font-weight-bold">Angular Js</h6>
+                  <h6 className="font-weight-bold">85%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar bg-success" role="progressbar" style={{ width: `80%` }} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar bg-success" role="progressbar" style={{ width: `85%` }} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
               <div className="skill mb-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Java</h6>
+                  <h6 className="font-weight-bold">Java | Spring Boot</h6>
                   <h6 className="font-weight-bold">75%</h6>
                 </div>
                 <div className="progress">
@@ -190,11 +199,20 @@ const HomePage = (props: Props) => {
               </div>
               <div className="skill mb-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Python</h6>
-                  <h6 className="font-weight-bold">65%</h6>
+                  <h6 className="font-weight-bold">HTML | CSS</h6>
+                  <h6 className="font-weight-bold">95%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar bg-info" role="progressbar" style={{ width: `65%` }} aria-valuenow={65} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar bg-info" role="progressbar" style={{ width: `95%` }} aria-valuenow={65} aria-valuemin={0} aria-valuemax={100}></div>
+                </div>
+              </div>
+              <div className="skill mb-4">
+                <div className="d-flex justify-content-between">
+                  <h6 className="font-weight-bold">Version Control (Git)</h6>
+                  <h6 className="font-weight-bold">95%</h6>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar " role="progressbar" style={{ width: `95%`,backgroundColor:'#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
             </div>
