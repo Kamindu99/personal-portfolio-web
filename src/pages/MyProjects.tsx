@@ -202,6 +202,36 @@ const MyProjects = (props: Props) => {
             url: "https://dotcomcomputers.netlify.app/"
         },
         {
+            id: "headingThirteen",
+            target: "collapseThirteen",
+            title: "Inventory Management System - (ReactJs (MUI Matis Template) , NodeJs , ExpressJS & MongoDB)",
+            description: "Inventory Management System is a comprehensive solution developed using React.js and Node.js that empowers businesses with streamlined inventory control and management. Built upon the MUI Mantis template, this project provides features like purchase order management, goods receiving notes, stock visualization, and seamless item transfers.",
+            features: [
+                "Purchase Order",
+                "Goods Receiving Notes",
+                "Stock View",
+                "Item Request",
+                "Item Transfers"
+            ],
+            technologies: [
+                "React",
+                "Node",
+                "Express",
+                "MongoDB",
+                "MUI",
+                "CSS",
+                "VsCode",
+                "Github"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1693286320/invntry_sfmpmr.jpg",
+                    imagename: "1. Purchase Order"
+                }
+            ],
+            url: "https://inventory-system-web.netlify.app/"
+        },
+        {
             id: "headingThree",
             target: "collapseThree",
             title: "Personal Portfolio Website - (ReactJs & TypeScript)",
@@ -624,6 +654,9 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "Bootstrap" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-bootstrap-2e2e2e?style=for-the-badge&logo=bootstrap" />
                                                                         }
+                                                                        {technology == "MUI" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-MUI-2e2e2e?style=for-the-badge&logo=ghostery" />
+                                                                        }
                                                                         {technology == "CSS" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-CSS-000269?style=for-the-badge&logo=csswizardry" />
                                                                         }
@@ -633,10 +666,10 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "Javascript" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Javascript-gray?style=for-the-badge&logo=javascript" />
                                                                         }
-                                                                         {technology == "AngularJs" &&
+                                                                        {technology == "AngularJs" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-AngularJs-gray?style=for-the-badge&logo=javascript" />
                                                                         }
-                                                                         {technology == "AngularMUI" &&
+                                                                        {technology == "AngularMUI" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Angular_MUI-gray?style=for-the-badge&logo=ghostery" />
                                                                         }
 
@@ -679,7 +712,7 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "SpringBoot" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Spring_Boot-gray?style=for-the-badge&logo=coffeescript" />
                                                                         }
-                                                                         {technology == "JsonServer" &&
+                                                                        {technology == "JsonServer" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Json_Server-gray?style=for-the-badge&logo=coffeescript" />
                                                                         }
                                                                     </>
