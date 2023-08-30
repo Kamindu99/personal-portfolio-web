@@ -202,6 +202,35 @@ const MyProjects = (props: Props) => {
             url: "https://dotcomcomputers.netlify.app/"
         },
         {
+            id: "headingFourteen",
+            target: "collapseFourteen",
+            title: "Wedding Proposals Webapp - (AngularJs (Bootstrap Template), NodeJs , MongoDB)",
+            description: "Wedding Proposals Web is an elegant and feature-rich platform developed using AngularJS and Node.js, designed to assist couples and event organizers in planning their dream weddings. Built upon the Bootstrap template, this project encompasses a range of features including groom and bride profiles, wedding decoration services, wedding hall bookings, and professional wedding photography services.",
+            features: [
+                "Groom and Bride Profiles",
+                "Wedding Decoration Services",
+                "Wedding Hall Bookings",
+                "Professional Wedding Photography"
+            ],
+            technologies: [
+                "AngularJs",
+                "NodeJs",
+                "AngularMUI",
+                "Bootstrap",
+                "CSS",
+                "VsCode",
+                "Github",
+                "MongoDB"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1693411116/jayamangalam_cbftzl.jpg",
+                    imagename: "1. Bride Profiles Page"
+                }
+            ],
+            url: "https://jayamangalam.netlify.app/"
+        },
+        {
             id: "headingThirteen",
             target: "collapseThirteen",
             title: "Inventory Management System - (ReactJs (MUI Matis Template) , NodeJs , ExpressJS & MongoDB)",
