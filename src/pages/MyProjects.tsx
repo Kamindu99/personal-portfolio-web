@@ -261,6 +261,36 @@ const MyProjects = (props: Props) => {
             url: "https://inventory-system-web.netlify.app/"
         },
         {
+            id: "headingFifteen",
+            target: "collapseFifteen",
+            title: "Audio Book System Landing Page - (ReactJs & TypeScript)",
+            description: "I developed a Audio Book System Landing Page using React.js, TypeScript, Bootstrap, and CSS. This dynamic web application serves as a showcase of all details about Audio book sytem research. The Research Details Landing Page, a dedicated space where you can delve into the depths of my research journey. This dynamic web page is powered by cutting-edge technologies, including React.js, TypeScript, CSS, and Bootstrap, to offer you a seamless and visually captivating experience",
+            features: [
+                "Project Scope",
+                "Milestones",
+                'Downloads',
+                ' About Us',
+                "Contact Us",
+            ],
+            technologies: [
+                "React",
+                "TypeScript",
+                "Bootstrap",
+                "CSS",
+                "Github",
+                "VsCode",
+                "NoBackend",
+                "NoDatabase"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1694279205/audiobooks_nnku6g.jpg",
+                    imagename: "1. Literature Survey"
+                }
+            ],
+            url: "https://listened.netlify.app/"
+        },
+        {
             id: "headingThree",
             target: "collapseThree",
             title: "Personal Portfolio Website - (ReactJs & TypeScript)",
