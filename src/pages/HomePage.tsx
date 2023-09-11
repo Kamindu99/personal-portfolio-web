@@ -45,10 +45,10 @@ const HomePage = (props: Props) => {
         console.log('Email sent successfully!', response.status, response.text);
         alert('Email sent successfully!');
         // Reset the form here if needed
-        e.target.elements.name.value=''
-        e.target.elements.email.value=''
-        e.target.elements.subject.value=''
-        e.target.elements.message.value=''
+        e.target.elements.name.value = ''
+        e.target.elements.email.value = ''
+        e.target.elements.subject.value = ''
+        e.target.elements.message.value = ''
       })
       .catch((error) => {
         console.error('Email sending failed:', error);
@@ -107,7 +107,7 @@ const HomePage = (props: Props) => {
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
-              <p style={{textAlign:'justify'}} className='me-5'>
+              <p style={{ textAlign: 'justify' }} className='me-5'>
                 I am Kamindu Gayantha Wanigasinghe and 24 years old. I am currently pursuing my degree in Software Engineering in Sri Lanka Institute of Information Technology.
                 During my academic life, I obtained a thorough understanding of several programming languages, algorithms, and software development methodologies.
                 I am passionate to leverage my technical skills and knowledge to contribute to the creation of innovative software solutions that positively impact people's lives.
@@ -174,7 +174,7 @@ const HomePage = (props: Props) => {
                   <h6 className="font-weight-bold">75%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar" role="progressbar" style={{ width: `75%`,backgroundColor:'#ba02ba' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar" role="progressbar" style={{ width: `75%`, backgroundColor: '#ba02ba' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
             </div>
@@ -212,7 +212,7 @@ const HomePage = (props: Props) => {
                   <h6 className="font-weight-bold">95%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar " role="progressbar" style={{ width: `95%`,backgroundColor:'#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar " role="progressbar" style={{ width: `95%`, backgroundColor: '#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>St. Aloysius College</strong> | <small>2009 - 2015</small>
                   </p>
-                  <p  className='me-5'>
+                  <p className='me-5'>
                     I am delighted to share with you my exceptional performance in the Ordinary Level exam at St. Aloysius, where I
                     achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication and
                     academic excellence.
@@ -250,7 +250,7 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>St. Aloysius College</strong> | <small>2016 - 2018</small>
                   </p>
-                  <p  className='me-5'>
+                  <p className='me-5'>
                     I am pleased to share that I have successfully passed the AL exam at St. Aloysius, attaining three
                     commendable C grades. This achievement represents a significant milestone in my academic journey and reflects
                     my commitment to learning.
@@ -262,7 +262,7 @@ const HomePage = (props: Props) => {
                   <p className="mb-2">
                     <strong>SLIIT</strong> | <small>2020 - 2024</small>
                   </p>
-                  <p  className='me-5'>
+                  <p className='me-5'>
                     I am currently enrolled in the B.Sc. Software Engineering program at SLIIT (Sri Lanka Institute of Information
                     Technology), where I am passionately studying to become a skilled and versatile software engineer.
                   </p>
@@ -302,9 +302,9 @@ const HomePage = (props: Props) => {
                     <strong>OLAK Technologies</strong> | <small>2022-Present</small>
                   </p>
                   <p>
-                  As an Associate Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and 
-                  innovative organization. OLAK Technologies is a leading company 
-                  in the software industry, specializing in delivering solutions to clients worldwide.
+                    As an Associate Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and
+                    innovative organization. OLAK Technologies is a leading company
+                    in the software industry, specializing in delivering solutions to clients worldwide.
                   </p>
                 </div>
               </div>
@@ -337,8 +337,8 @@ const HomePage = (props: Props) => {
 
             <div className="col-lg-6 d-flex align-items-center">
               <form className="w-100" onSubmit={handleSubmit}>
-              If you have any questions or would like to contact me, please fill out the form below and I will get back to you as soon as possible.
-                {/* Form fields */}<br/><br/>
+                If you have any questions or would like to contact me, please fill out the form below and I will get back to you as soon as possible.
+                {/* Form fields */}<br /><br />
                 <input type="text" className="form-control form-control" name="name" placeholder="Name" />
                 <input type="email" className="form-control mt-3" name="email" placeholder="Email" />
                 <input type="text" className="form-control mt-3" name="subject" placeholder="Subject" />
@@ -347,7 +347,7 @@ const HomePage = (props: Props) => {
                 </div>
 
                 {/* Submit button */}
-                <button type="submit" className="btn btn-success mt-3" style={{width:'100%'}}>Send Mail</button>
+                <button type="submit" className="btn btn-success mt-3" style={{ width: '100%' }}>Send Mail</button>
               </form>
             </div>
 
