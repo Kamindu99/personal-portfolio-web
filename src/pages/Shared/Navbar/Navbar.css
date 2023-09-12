@@ -28,7 +28,7 @@
     color: white !important;
 }
 
-.nav-link.active {
+.nav-link.actives {
     font-weight: 600;
     font-size: large;
     border-bottom: 2px solid #000000;

@@ -675,7 +675,7 @@ const MyProjects = (props: Props) => {
 
                                                             {project.description}
                                                             <br /> <br />
-                                                            <div> Live Site - <Link to={project.url} style={{ textDecoration: 'none', color: "blue" }}>{project.url}</Link> </div>
+                                                            <div> Live Site - <span onClick={() => { window.open(project.url) }} style={{ textDecoration: 'none', color: "blue", cursor: 'pointer' }}>{project.url}</span> </div>
 
                                                         </p>
                                                     </div>
