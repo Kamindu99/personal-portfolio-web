@@ -828,7 +828,7 @@ const MyProjects = (props: Props) => {
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-.NET-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
                                                                         {technology == "C#" &&
-                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-C_#-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-C_Sharp-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
                                                                         {technology == "Django" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-Django-cad4b4?style=for-the-badge&logo=ghostery" />
