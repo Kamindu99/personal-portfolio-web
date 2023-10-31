@@ -915,7 +915,7 @@ const MyProjects = (props: Props) => {
                                                                 {project.image.map((img) => (
                                                                     <div className="col-md-4 mb-3">
                                                                         <div className="image-container project-image-container">
-                                                                            {img.imagename} <img src={img.image} alt="" className="mt-2 img-fluid" />
+                                                                            {img.imagename} <img src={img.image} alt="" className="mt-2 img-fluid" style={{ objectFit: 'cover' }} />
                                                                         </div>
                                                                     </div>
                                                                 ))}
