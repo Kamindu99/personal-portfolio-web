@@ -291,6 +291,65 @@ const MyProjects = (props: Props) => {
             url: "https://listened.netlify.app/"
         },
         {
+            id: "headingSeventeen",
+            target: "collapseSeventeen",
+            title: "Train Ticket Booking System - (ReactJs , .NET , C#, MongoDB)",
+            description: "I developed a Train Ticket Booking System using React.js, .NET, C#, and MongoDB. This comprehensive web application is designed to streamline and enhance the management of train ticket booking-related activities and services. The Train Ticket Booking System offers a range of features and functionalities that cater to the needs of both tourists and tourism operators. It provides a user-friendly interface that ensures seamless navigation and an enjoyable user experience. For tourists, the application allows them to explore various destinations, view attractions and activities, and make bookings for accommodations, tours, and transportation. They can access detailed information about each destination, including popular landmarks, local culture, and recommended itineraries. The integrated booking system ensures a convenient and secure reservation process.",
+            features: [
+                "Train Management",
+                "Train Schedule Management",
+                "Train Ticket Booking",
+                "Train Ticket Cancellation",
+                "User Authentication",
+                "Responsive Design"
+            ],
+            technologies: [
+                "React",
+                "Bootstrap",
+                "CSS",
+                "Github",
+                "VsCode",
+                "C#",
+                ".NET",
+                "MongoDB"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1698775383/traingo_zpzyh7.jpg",
+                    imagename: "1. Home Page"
+                }
+            ],
+            url: "https://traingo.netlify.app/"
+        },
+        {
+            id: "headingSixteen",
+            target: "collapseSixteen",
+            title: "Audio Book System - (ReactJs , Django , Postgres)",
+            description: "I developed a Audio Book System System using React.js, Django, Postgres. In this system, the user can register and login to the system. After login, the user can view the list of books and can download the books. The user can also view the list of authors and can download the books. The user can also view the list of categories and can download the books. The user can also view the list of publish.",
+            features: [
+                "User Management",
+                "Book Management",
+                "Ishihara Test Management",
+                "Sinhala Voice Command",
+            ],
+            technologies: [
+                "React",
+                "Bootstrap",
+                "CSS",
+                "Github",
+                "VsCode",
+                "Django",
+                "Postgres"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1698773910/audiobooksystem_qqkkeb.jpg",
+                    imagename: "1. Home Page"
+                }
+            ],
+            url: "https://listen-ed.netlify.app/"
+        },
+        {
             id: "headingThree",
             target: "collapseThree",
             title: "Personal Portfolio Website - (ReactJs & TypeScript)",
@@ -765,6 +824,15 @@ const MyProjects = (props: Props) => {
                                                                         {technology == "NoBackend" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Backend-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
+                                                                        {technology == ".NET" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-.NET-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
+                                                                        {technology == "C#" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-C#-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
+                                                                        {technology == "Django" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Django-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
                                                                         {technology == "PHP" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-PHP-gray?style=for-the-badge&logo=coffeescript" />
                                                                         }
@@ -795,6 +863,9 @@ const MyProjects = (props: Props) => {
                                                                         }
                                                                         {technology == "NoDatabase" &&
                                                                             <img className='me-3 mb-3' src="https://img.shields.io/badge/-No_Database-cad4b4?style=for-the-badge&logo=ghostery" />
+                                                                        }
+                                                                        {technology == "Postgres" &&
+                                                                            <img className='me-3 mb-3' src="https://img.shields.io/badge/-Postgres-cad4b4?style=for-the-badge&logo=ghostery" />
                                                                         }
                                                                     </>
                                                                 ))}
