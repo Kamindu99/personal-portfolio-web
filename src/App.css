@@ -52,6 +52,7 @@
 .intro h1.animate {
   overflow: hidden;
   animation: reveal 1s ease-in-out;
+  position: absolute;
 }
 
 @keyframes reveal {
@@ -403,3 +404,19 @@ button.btn.btn-link i {
 * FOR DEMO PURPOSE
 * ==========================================
 */
+
+.spotlight-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.spotlight-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.15;
+  /* transition: clip-path 0.3s ease-in-out; */
+}

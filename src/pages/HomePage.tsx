@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 //@ts-ignore
 import cvFile from './MyCv/KaminduGayanthaCV.pdf';
 import emailjs from 'emailjs-com';
@@ -55,6 +55,18 @@ const HomePage = (props: Props) => {
       });
   };
 
+  const [spotlightVisible, setSpotlightVisible] = useState(false);
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: any) => {
+    setSpotlightVisible(true);
+    setCursorPosition({ x: e.clientX, y: e.clientY });
+  };
+
+  const handleMouseLeave = () => {
+    setSpotlightVisible(false);
+  };
+
 
   return (
     <div>
@@ -72,11 +84,25 @@ const HomePage = (props: Props) => {
       </section> */}
 
 
-      <div className="intro" id="home">
+      <div className="intro spotlight-container" id="home"
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}>
         <h1 className="animate">Hi, It's me Kamindu</h1>
-        <p>I am a web developer in Sri Lanka.</p>
+        <p style={{ position: 'absolute', marginTop: '150px' }}>I am a web developer in Sri Lanka.</p>
         {/* <button>Learn More</button> */}
+        <img
+          className="spotlight-image"
+          src="https://sb.kaleidousercontent.com/67418/1047x597/a13a77a922/developers-6.png"
+          style={{
+            clipPath: spotlightVisible
+              ? `circle(15% at ${cursorPosition.x}px ${cursorPosition.y}px)`
+              : 'circle(0% at 0 0)', // Use 0% to hide the image initially
+          }}
+          alt="Spotlight Image"
+        />
       </div>
+
+
       <div className="achievements">
         <div className="work">
           <i className="fas fa-atom"></i>
