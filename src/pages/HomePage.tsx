@@ -103,29 +103,21 @@ const HomePage = (props: Props) => {
       </div>
 
 
-      <div className="container achievements">
-        <div className="row">
-          <div className="col-12 col-md-4">
-            <div className="work">
-              <i className="fas fa-atom"></i>
-              <p className="work-heading">Projects</p>
-              <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
-            </div>
-          </div>
-          <div className="col-12 col-md-4">
-            <div className="work">
-              <i className="fas fa-skiing"></i>
-              <p className="work-heading">Skills</p>
-              <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
-            </div>
-          </div>
-          <div className="col-12 col-md-4">
-            <div className="work">
-              <i className="fas fa-ethernet"></i>
-              <p className="work-heading">Network</p>
-              <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-            </div>
-          </div>
+      <div className="achievements">
+        <div className="work">
+          <i className="fas fa-atom"></i>
+          <p className="work-heading">Projects</p>
+          <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+        </div>
+        <div className="work">
+          <i className="fas fa-skiing"></i>
+          <p className="work-heading">Skills</p>
+          <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+        </div>
+        <div className="work">
+          <i className="fas fa-ethernet"></i>
+          <p className="work-heading">Network</p>
+          <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
         </div>
       </div>
 
