@@ -349,7 +349,34 @@ const MyProjects = (props: Props) => {
             ],
             url: "https://online-library-webapp.netlify.app/"
         },
-
+        {
+            id: "headingSixteen",
+            target: "collapseSixteen",
+            title: "Audio Book System - (ReactJs , Django , Postgres)",
+            description: "I developed a Audio Book System System using React.js, Django, Postgres. In this system, the user can register and login to the system. After login, the user can view the list of books and can download the books. The user can also view the list of authors and can download the books. The user can also view the list of categories and can download the books. The user can also view the list of publish.",
+            features: [
+                "User Management",
+                "Book Management",
+                "Ishihara Test Management",
+                "Sinhala Voice Command",
+            ],
+            technologies: [
+                "React",
+                "Bootstrap",
+                "CSS",
+                "Github",
+                "VsCode",
+                "Django",
+                "Postgres"
+            ],
+            image: [
+                {
+                    image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1698773910/audiobooksystem_qqkkeb.jpg",
+                    imagename: "1. Home Page"
+                }
+            ],
+            url: "https://listen-ed.netlify.app/"
+        },
         {
             id: "headingThree",
             target: "collapseThree",
