@@ -468,7 +468,7 @@ button.btn.btn-link i {
 }
 
 .myblogs .card.card-just-text .content {
-  padding: 50px 65px;
+  padding: 40px 40px;
   text-align: center;
 }
 
@@ -518,6 +518,8 @@ button.btn.btn-link i {
 .myblogs .card .description {
   font-size: 16px;
   color: #66615b;
+  max-height: 70px;
+  overflow: hidden;
 }
 
 .myblogs .content-card {
@@ -541,4 +543,5 @@ button.btn.btn-link i {
 
 .myblogs .card[data-color="purple"] .category {
   color: #5a283d;
+  margin: 20px 0 20px 0;
 }
