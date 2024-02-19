@@ -424,7 +424,7 @@ button.btn.btn-link i {
 .myblogs {}
 
 .myblogs .card-big-shadow {
-  max-width: 320px;
+
   position: relative;
 }
 
@@ -520,6 +520,9 @@ button.btn.btn-link i {
   color: #66615b;
   max-height: 70px;
   overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .myblogs .content-card {
@@ -544,4 +547,8 @@ button.btn.btn-link i {
 .myblogs .card[data-color="purple"] .category {
   color: #5a283d;
   margin: 20px 0 20px 0;
+}
+
+.myblogs .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }

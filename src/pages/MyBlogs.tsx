@@ -72,11 +72,11 @@ function MyBlogs() {
     return (
         <div className='myblogs'>
             <div className="container bootstrap snippets bootdeys">
-                <div className="row">
+                <div className="row" style={{ height: '100%' }}>
                     {myblogs.map((blog) => (
-                        <div className="col-md-3 col-sm-6 content-card" >
+                        <div className="col-md-6 col-sm-6 content-card" style={{ display: 'flex' }}>
                             <div className="card-big-shadow">
-                                <div className="card card-just-text" data-background="color" data-color="purple" data-radius="none" style={{ cursor: 'pointer' }} onClick={() => { window.open(blog?.link, '_blank'); }}>
+                                <div className="card card-just-text" data-background="color" data-color="purple" data-radius="none" style={{ cursor: 'pointer', height: '100%' }} onClick={() => { window.open(blog?.link, '_blank'); }}>
                                     <div className="content">
                                         <h4 className="title">{blog?.title}</h4>
                                         <h6 className="category">{blog?.topTitle}</h6>
