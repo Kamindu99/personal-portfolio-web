@@ -421,134 +421,73 @@ button.btn.btn-link i {
   /* transition: clip-path 0.3s ease-in-out; */
 }
 
-.myblogs {}
-
-.myblogs .card-big-shadow {
-
-  position: relative;
-}
-
-.myblogs .coloured-cards .card {
-  margin-top: 30px;
-}
-
-.myblogs .card[data-radius="none"] {
-  border-radius: 0px;
-}
-
-.myblogs .card {
+.myblogs .medium-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.348);
+  padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
-  background-color: #FFFFFF;
-  color: #252422;
-  margin-bottom: 20px;
-  position: relative;
-  z-index: 1;
+  background-image: linear-gradient(145deg, #deebe6 0%, #efefef 50%);
 }
 
-
-.myblogs .card[data-background="image"] .title,
-.myblogs .card[data-background="image"] .stats,
-.myblogs .card[data-background="image"] .category,
-.myblogs .card[data-background="image"] .description,
-.myblogs .card[data-background="image"] .content,
-.myblogs .card[data-background="image"] .card-footer,
-.myblogs .card[data-background="image"] small,
-.myblogs .card[data-background="image"] .content a,
-.myblogs .card[data-background="color"] .title,
-.myblogs .card[data-background="color"] .stats,
-.myblogs .card[data-background="color"] .category,
-.myblogs .card[data-background="color"] .description,
-.myblogs .card[data-background="color"] .content,
-.myblogs .card[data-background="color"] .card-footer,
-.myblogs .card[data-background="color"] small,
-.myblogs .card[data-background="color"] .content a {
-  color: #FFFFFF;
-  text-decoration: none;
+.myblogs .medium-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
+  transition: 0.3s;
+  scale: 1.002;
 }
 
-.myblogs .card.card-just-text .content {
-  padding: 40px 40px;
-  text-align: center;
+.myblogs .medium-card-header {
+  margin-bottom: 10px;
 }
 
-.myblogs .card .content {
-  padding: 20px 20px 10px 20px;
+.myblogs .medium-card-header .medium-card-image {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
-.myblogs .card[data-color="blue"] .category {
-  color: #7a9e9f;
+.myblogs .medium-card-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-.myblogs .card .category,
-.myblogs .card .label {
-  font-size: 14px;
-  margin-bottom: 0px;
+.myblogs .medium-card-date {
+  color: #555555;
+  font-size: 0.875rem;
 }
 
-.myblogs .card-big-shadow:before {
-  background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  bottom: -12%;
-  content: "";
-  display: block;
-  left: -12%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
+.myblogs .medium-card-content {
+  margin-bottom: 10px;
 }
 
-.myblogs h4,
-.myblogs .h4 {
-  font-size: 1.5em;
-  font-weight: 600;
-  line-height: 1.2em;
-}
-
-.myblogs h6,
-.myblogs .h6 {
-  font-size: 0.9em;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.myblogs .card .description {
-  font-size: 16px;
-  color: #66615b;
-  max-height: 70px;
-  overflow: hidden;
+.myblogs .medium-card-excerpt {
+  font-size: 1rem;
+  color: #222222;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  overflow: hidden;
   -webkit-line-clamp: 2;
 }
 
-.myblogs .content-card {
-  margin-top: 30px;
+.myblogs .medium-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.myblogs a:hover,
-.myblogs a:focus {
-  text-decoration: none;
+.myblogs .medium-card-category,
+.myblogs .medium-card-read-time {
+  font-size: 14px;
+  color: #454545;
+  margin: 0;
 }
 
-/*======== COLORS ===========*/
-
-.myblogs .card[data-color="purple"] {
-  background: #baa9ba;
-}
-
-.myblogs .card[data-color="purple"] .description {
-  color: #3a283d;
-}
-
-.myblogs .card[data-color="purple"] .category {
-  color: #5a283d;
-  margin: 20px 0 20px 0;
-}
-
-.myblogs .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.myblogs .medium-card-chip {
+  display: inline-block;
+  background-color: #ffffffab;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 4px 8px;
 }
