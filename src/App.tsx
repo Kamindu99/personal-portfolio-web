@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import PhotoGallery from './pages/ImageGallery';
 import MyProjects from './pages/MyProjects';
 import MyProfile from './pages/MyProfile';
+import MyBlogs from './pages/MyBlogs';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/my-photo" element={<PhotoGallery />} />
         <Route path="/my-projects" element={<MyProjects />} />
         <Route path="/my-profile" element={<MyProfile />} />
+        <Route path="/my-blogs" element={<MyBlogs />} />
       </Routes>
       <Footer />
     </BrowserRouter>
