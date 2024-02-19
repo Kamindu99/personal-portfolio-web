@@ -22,7 +22,7 @@ const Navbar = () => {
     const isProject = str.includes("/my-projects");
     const isContactMe = str.includes("/#contact");
     const isAboutUs = str.includes("/#about");
-
+    const isBlogs = str.includes("/my-blogs");
     let isHome = str.includes("#home");
 
     return (
@@ -56,6 +56,10 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <a className={`nav-link nav-link-a-text me-4 ${isProject ? 'actives' : ''}`} href="/my-projects">Projects</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className={`nav-link nav-link-a-text me-4 ${isBlogs ? 'actives' : ''}`} href="/my-blogs" >Blogs</a>
                         </li>
 
                         <li className="nav-item">
