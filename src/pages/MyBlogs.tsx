@@ -96,7 +96,7 @@ function MyBlogs() {
             <div className="container bootstrap snippets bootdeys mt-4">
                 <div className="row" style={{ height: '100%' }}>
                     {myblogs.map((blog) => (
-                        <div className="col-md-6 col-sm-6 content-card mb-4" style={{ display: 'flex' }}>
+                        <div className="col-md-4 col-sm-6 content-card mb-4 " style={{ display: 'flex' }}>
                             <div className="medium-card" style={{ height: '100%', width: '100%', cursor: 'pointer' }} onClick={() => { window.open(`${blog?.link}`) }}>
                                 <div className="medium-card-header">
                                     <h2 className="medium-card-title">{blog?.title}</h2>
@@ -114,10 +114,8 @@ function MyBlogs() {
                             </div>
                         </div>
                     ))}
-
                 </div>
             </div>
-
         </div >
     )
 }
