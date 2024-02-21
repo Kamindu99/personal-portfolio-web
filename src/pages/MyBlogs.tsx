@@ -92,24 +92,20 @@ function MyBlogs() {
                 <div className="row" style={{ height: '100%' }}>
                     {myblogs.map((blog) => (
                         <div className="col-md-4 col-sm-6 content-card mb-4" style={{ display: 'flex' }}>
-                            <div className="card-big-shadow">
-                                <div className="medium-card" style={{ height: '100%', width: '100%' }}>
-                                    <div className="medium-card-header">
-
-                                        <h2 className="medium-card-title">{blog?.title}</h2>
-                                        <p className="medium-card-date">{blog?.addedDate}</p>
-                                    </div>
-                                    <div className="medium-card-content">
-                                        <p className="medium-card-excerpt">{blog?.description}</p>
-                                    </div>
-                                    <div className="medium-card-footer">
-                                        <div className="medium-card-chip">
-                                            <p className="medium-card-category">{blog?.category}</p>
-                                        </div>
-                                        <p className="medium-card-read-time">{blog?.readingTime}</p>
-                                    </div>
+                            <div className="medium-card" style={{ height: '100%', width: '100%', cursor: 'pointer' }} onClick={() => { window.open(`${blog?.link}`) }}>
+                                <div className="medium-card-header">
+                                    <h2 className="medium-card-title">{blog?.title}</h2>
+                                    <p className="medium-card-date">{blog?.addedDate}</p>
                                 </div>
-
+                                <div className="medium-card-content">
+                                    <p className="medium-card-excerpt">{blog?.description}</p>
+                                </div>
+                                <div className="medium-card-footer">
+                                    <div className="medium-card-chip">
+                                        <p className="medium-card-category">{blog?.category}</p>
+                                    </div>
+                                    <p className="medium-card-read-time">{blog?.readingTime}</p>
+                                </div>
                             </div>
                         </div>
                     ))}
