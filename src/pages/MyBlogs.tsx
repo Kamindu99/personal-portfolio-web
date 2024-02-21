@@ -68,7 +68,7 @@ function MyBlogs() {
             readingTime: '4 min read',
             addedDate: "May 15, 2022",
             category: 'NodeJS',
-            image: "https://res.cloudinary.com/boardinfinity/image/upload/t_blog_img/bi-websites/blog/11/Blogs---sheet-1--20-.png",
+            image: "https://img-c.udemycdn.com/course/750x422/5611712_767b_2.jpg",
             title: "Node JS for Beginners",
             description: "What is NODEJS Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside of a browser. Many people are confused and understand that it is a framework or",
             link: "https://medium.com/@kamindugayantha/node-js-for-beginners-39fc34e6468"
@@ -99,7 +99,7 @@ function MyBlogs() {
                         <div className="col-md-6 col-sm-6 content-card mb-4 " style={{ display: 'flex' }}>
                             <div className="medium-card" style={{ height: '100%', width: '100%', cursor: 'pointer' }} onClick={() => { window.open(`${blog?.link}`) }}>
                                 <div className='row'>
-                                    <div className='col-md-9'>
+                                    <div className='col-9'>
                                         <div className="medium-card-header">
                                             <h2 className="medium-card-title">{blog?.title}</h2>
                                             <p className="medium-card-date">{blog?.addedDate}</p>
@@ -114,7 +114,7 @@ function MyBlogs() {
                                             <p className="medium-card-read-time">{blog?.readingTime}</p>
                                         </div>
                                     </div>
-                                    <div className='col-md-3'>
+                                    <div className='col-3'>
                                         <img src={blog?.image} alt="blog" className='mt-3' style={{ width: '100%', height: '130px', objectFit: 'cover' }} />
                                     </div>
                                 </div>
