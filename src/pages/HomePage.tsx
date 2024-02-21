@@ -67,10 +67,8 @@ const HomePage = (props: Props) => {
     setSpotlightVisible(false);
   };
 
-
   return (
     <div>
-
 
       {/* <section className="bgimage" id="home">
         <div className="container-fluid">
@@ -82,7 +80,6 @@ const HomePage = (props: Props) => {
           </div>
         </div>
       </section> */}
-
 
       <div className="intro spotlight-container" id="home"
         onMouseMove={handleMouseMove}
@@ -102,7 +99,6 @@ const HomePage = (props: Props) => {
         />
       </div>
 
-
       <div className="achievements">
         <div className="work">
           <i className="fas fa-atom"></i>
@@ -121,7 +117,7 @@ const HomePage = (props: Props) => {
         </div>
       </div>
 
-      <div className="container-fluid py-5" id="about">
+      <div className="container-fluid py-3" id="about">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
@@ -159,7 +155,7 @@ const HomePage = (props: Props) => {
         </div>
       </div>
 
-      <div className="container-fluid py-5" id="skill">
+      <div className="container-fluid py-3" id="skill">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>Skills</h1>
@@ -246,7 +242,7 @@ const HomePage = (props: Props) => {
         </div>
       </div>
 
-      <div className="container-fluid py-5" id="qualification">
+      <div className="container-fluid py-3" id="qualification">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
@@ -340,8 +336,13 @@ const HomePage = (props: Props) => {
       </div>
 
       <section id="contact">
-        <div className="container mt-3 contactContent">
-          <h1 className="text-center">Contact Me</h1>
+        <div className="container contactContent">
+          <div className="position-relative d-flex align-items-center justify-content-center">
+            <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
+              Contact
+            </h1>
+            <h1 className="position-absolute text-uppercase text-primary"> Contact Me</h1>
+          </div>
 
           <div className="row mt-4">
             <div className="col-lg-6">
@@ -381,10 +382,7 @@ const HomePage = (props: Props) => {
         </div>
       </section>
 
-
     </div>
-
-
 
   )
 }
