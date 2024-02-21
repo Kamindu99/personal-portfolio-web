@@ -8,7 +8,7 @@ function MyBlogs() {
             readingTime: '5 min read',
             addedDate: "Sep 16, 2023",
             category: 'AngularJS',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*NUZCLQfkiyyZtduHTC_6fA.jpeg",
             title: "AngularJS for Beginners - Building Your First AngularJS Web App",
             description: "AngularJS is an open-source JavaScript framework developed by Google for building dynamic web applications.",
             link: "https://medium.com/@kamindugayantha/angularjs-for-beginners-building-your-first-angularjs-web-app-55115a5f4404"
@@ -28,7 +28,7 @@ function MyBlogs() {
             readingTime: '4 min read',
             addedDate: "Jul 5, 2023",
             category: 'TypeScript',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*moJeTvW97yShLB7URRj5Kg.png",
             title: "Getting Started with TypeScript in React: A Comprehensive Guide",
             description: "Introduction In the world of modern web development, React has become one of the most popular JavaScript libraries for building user",
             link: "https://medium.com/@kamindugayantha/getting-started-with-typescript-in-react-a-comprehensive-guide-650e73a4d84a"
@@ -38,7 +38,7 @@ function MyBlogs() {
             readingTime: '6 min read',
             addedDate: "May 15, 2022",
             category: 'OOP Principles',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://geekflare.com/wp-content/uploads/2022/09/oop.png",
             title: "Become a Successful Full Stack Developer through the OOP Principles and Practices",
             description: "Application Frameworks An application framework is a software library that provides the basic structure to assist in the development",
             link: "https://medium.com/@kamindugayantha/become-a-successful-full-stack-developer-through-the-oop-principles-and-practices-39057c13c0b4"
@@ -48,7 +48,7 @@ function MyBlogs() {
             readingTime: '5 min read',
             addedDate: "May 15, 2022",
             category: 'JavaScript',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://www.pragimtech.com/wp-content/uploads/2019/03/java-script.jpg",
             title: "JavaScript concepts you need to know as a JavaScript programmer!",
             description: "JavaScript (Js) is a programming language that integrates HTML and CSS with one of the basic technologies in the World Wide Web. More",
             link: "https://medium.com/@kamindugayantha/javascript-concepts-you-need-to-know-as-a-javascript-programmer-1b2dc74cd1f3"
@@ -58,7 +58,7 @@ function MyBlogs() {
             readingTime: '4 min read',
             addedDate: "May 15, 2022",
             category: 'ReactJS',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://cloud.z.com/vn/wp-content/uploads/2023/05/ReactJS-online-training-nareshit.jpg",
             title: "ReactJS for Frontend Development",
             description: "What is ReactJS React is a JavaScript based UI development library designed to facilitate the development of visual interfaces. It is run by Facebook and the open source developer community. Although React is",
             link: "https://medium.com/@kamindugayantha/reactjs-for-the-frontend-development-ea7cfa59110f"
@@ -68,7 +68,7 @@ function MyBlogs() {
             readingTime: '4 min read',
             addedDate: "May 15, 2022",
             category: 'NodeJS',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://res.cloudinary.com/boardinfinity/image/upload/t_blog_img/bi-websites/blog/11/Blogs---sheet-1--20-.png",
             title: "Node JS for Beginners",
             description: "What is NODEJS Node.js is an open source and cross-platform runtime environment for executing JavaScript code outside of a browser. Many people are confused and understand that it is a framework or",
             link: "https://medium.com/@kamindugayantha/node-js-for-beginners-39fc34e6468"
@@ -78,7 +78,7 @@ function MyBlogs() {
             readingTime: '4 min read',
             addedDate: "May 15, 2022",
             category: 'KoaJS',
-            image: "https://miro.medium.com/v2/resize:fit:786/format:webp/1*rsdyu4-uIS2JpHDEi3p02w.png",
+            image: "https://miro.medium.com/v2/resize:fit:1000/1*suXzT3k1lYrtR91XRDN7gA.png",
             title: "What is KoaJS Framework",
             description: "When it comes to web development, there are times when you need to choose a framework to enable and activate your backend API. …",
             link: "https://medium.com/@kamindugayantha/what-is-koajs-framework-fb28876c7509"
@@ -96,20 +96,27 @@ function MyBlogs() {
             <div className="container bootstrap snippets bootdeys mt-4">
                 <div className="row" style={{ height: '100%' }}>
                     {myblogs.map((blog) => (
-                        <div className="col-md-4 col-sm-6 content-card mb-4 " style={{ display: 'flex' }}>
+                        <div className="col-md-6 col-sm-6 content-card mb-4 " style={{ display: 'flex' }}>
                             <div className="medium-card" style={{ height: '100%', width: '100%', cursor: 'pointer' }} onClick={() => { window.open(`${blog?.link}`) }}>
-                                <div className="medium-card-header">
-                                    <h2 className="medium-card-title">{blog?.title}</h2>
-                                    <p className="medium-card-date">{blog?.addedDate}</p>
-                                </div>
-                                <div className="medium-card-content">
-                                    <p className="medium-card-excerpt">{blog?.description}</p>
-                                </div>
-                                <div className="medium-card-footer">
-                                    <div className="medium-card-chip">
-                                        <p className="medium-card-category">{blog?.category}</p>
+                                <div className='row'>
+                                    <div className='col-md-9'>
+                                        <div className="medium-card-header">
+                                            <h2 className="medium-card-title">{blog?.title}</h2>
+                                            <p className="medium-card-date">{blog?.addedDate}</p>
+                                        </div>
+                                        <div className="medium-card-content">
+                                            <p className="medium-card-excerpt">{blog?.description}</p>
+                                        </div>
+                                        <div className="medium-card-footer">
+                                            <div className="medium-card-chip">
+                                                <p className="medium-card-category">{blog?.category}</p>
+                                            </div>
+                                            <p className="medium-card-read-time">{blog?.readingTime}</p>
+                                        </div>
                                     </div>
-                                    <p className="medium-card-read-time">{blog?.readingTime}</p>
+                                    <div className='col-md-3'>
+                                        <img src={blog?.image} alt="blog" className='mt-3' style={{ width: '100%', height: '130px', objectFit: 'cover' }} />
+                                    </div>
                                 </div>
                             </div>
                         </div>

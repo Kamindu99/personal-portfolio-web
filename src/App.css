@@ -422,16 +422,17 @@ button.btn.btn-link i {
 }
 
 .myblogs .medium-card {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.348);
+  box-shadow: 0 0px 50px rgba(0, 0, 0, 0.323);
   padding: 20px;
   border-radius: 8px;
-  background-image: linear-gradient(145deg, #deebe6 0%, #efefef 50%);
+  background-image: linear-gradient(145deg, #deebe627 0%, #efefef19 50%);
+  transition: 0.4s;
+  scale: 1;
 }
 
 .myblogs .medium-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.348);
   transition: 0.3s;
-  scale: 1.002;
+  scale: 0.97;
 }
 
 .myblogs .medium-card-header {

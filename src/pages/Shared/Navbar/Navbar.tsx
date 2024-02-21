@@ -44,26 +44,26 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{ marginRight: '2%' }}>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-4 ${isHome ? 'actives' : ''}`} aria-current="page" href="/#home">Home</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isHome ? 'actives' : ''}`} aria-current="page" href="/#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-4 ${isAboutUs ? 'actives' : ''}`} href="/#about">About Me</a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a href='/#contact' className={`nav-link me-4 nav-link-a-text ${isContactMe ? 'actives' : ''}`}>Contact Me</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isAboutUs ? 'actives' : ''}`} href="/#about">About Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-4 ${isProject ? 'actives' : ''}`} href="/my-projects">Projects</a>
+                            <a href='/#contact' className={`nav-link me-3 nav-link-a-text ${isContactMe ? 'actives' : ''}`}>Contact Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-4 ${isBlogs ? 'actives' : ''}`} href="/my-blogs" >Blogs</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isProject ? 'actives' : ''}`} href="/my-projects">Projects</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-4 ${isGallery ? 'actives' : ''}`} href="/my-photo" >Gallery</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isBlogs ? 'actives' : ''}`} href="/my-blogs" >Blogs</a>
+                        </li>
+
+                        <li className="nav-item">
+                            <a className={`nav-link nav-link-a-text me-3 ${isGallery ? 'actives' : ''}`} href="/my-photo" >Gallery</a>
                         </li>
                     </ul>
                 </div>
