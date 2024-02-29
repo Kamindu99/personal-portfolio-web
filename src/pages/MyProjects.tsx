@@ -635,34 +635,7 @@ const MyProjects = (props: Props) => {
             ],
             url: "https://simpleunitconvertapp.netlify.app/"
         },
-        {
-            id: "headingEleven",
-            target: "collapseEleven",
-            title: "Employee Management RestApi  - (Spring Boot & MySQL)",
-            description: "This is a Employee Management RestApi developed using Spring Boot & MySQL. The system provides various features for managing employee-related tasks such as register employee, update employee, delete employee, get employee details.",
-            features: [
-                "Register Employee",
-                "Update Employee",
-                "Delete Employee",
-                "Get All Employee",
-                "Get Employee Details"
-            ],
-            technologies: [
-                "SpringBoot",
-                "MySQL",
-                "VsCode",
-                "Github",
-                "NoFrontend"
-            ],
-            image: [
-                // {
-                //     image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1689169883/unitconerter_h7qeup.jpg",
-                //     imagename: "1. Temperature Converter Page"
-                // }
 
-            ],
-            url: "#"
-        }
     ])
 
     return (
