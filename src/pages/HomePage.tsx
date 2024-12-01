@@ -130,15 +130,17 @@ const HomePage = (props: Props) => {
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
               <p style={{ textAlign: 'justify' }} className='me-5'>
-                I am Kamindu Gayantha Wanigasinghe and 24 years old. I am currently pursuing my degree in Software Engineering in Sri Lanka Institute of Information Technology.
-                During my academic life, I obtained a thorough understanding of several programming languages, algorithms, and software development methodologies.
-                I am passionate to leverage my technical skills and knowledge to contribute to the creation of innovative software solutions that positively impact people's lives.
+                I am Kamindu Gayantha Wanigasinghe, a 25-year-old graduate in Software Engineering from the Sri Lanka Institute of
+                Information Technology. My academic journey has equipped me with a solid foundation in programming languages,
+                algorithms, and software development methodologies. I am deeply passionate about leveraging my technical expertise
+                to develop innovative software solutions that positively impact people's lives. I am eager to contribute my skills
+                and knowledge to challenging projects and make meaningful contributions to the tech industry.
               </p>
               <div className="row mb-3">
                 <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Kamindu Gayantha</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">7 December 1999</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Undergraduate at SLIIT</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">1 Years</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Graduated from SLIIT</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">2 Years +</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 5273881</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamidugayantha123@gmail.com</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd mail post, Maudella, Dela</span></h6></div>
@@ -256,14 +258,13 @@ const HomePage = (props: Props) => {
               <div className="border-left border-primary pt-2 pl-4 ml-2">
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
-                  <h5 className="font-weight-bold mb-1">Ordinary Level</h5>
+                  <h5 className="font-weight-bold mb-1">B.Sc. in Software Engineering</h5>
                   <p className="mb-2">
-                    <strong>St. Aloysius College</strong> | <small>2009 - 2015</small>
+                    <strong>SLIIT</strong> | <small>2020 - 2024</small>
                   </p>
                   <p className='me-5'>
-                    I am delighted to share with you my exceptional performance in the Ordinary Level exam at St. Aloysius, where I
-                    achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication and
-                    academic excellence.
+                    I am a graduate of the B.Sc. Software Engineering program at SLIIT (Sri Lanka Institute of Information Technology),
+                    where I developed the skills and versatility to excel as a software engineer.
                   </p>
                 </div>
                 <div className="position-relative ex-me mb-4">
@@ -280,13 +281,14 @@ const HomePage = (props: Props) => {
                 </div>
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
-                  <h5 className="font-weight-bold mb-1">B.Sc. in Software Engineering</h5>
+                  <h5 className="font-weight-bold mb-1">Ordinary Level</h5>
                   <p className="mb-2">
-                    <strong>SLIIT</strong> | <small>2020 - 2024</small>
+                    <strong>St. Aloysius College</strong> | <small>2009 - 2015</small>
                   </p>
                   <p className='me-5'>
-                    I am currently enrolled in the B.Sc. Software Engineering program at SLIIT (Sri Lanka Institute of Information
-                    Technology), where I am passionately studying to become a skilled and versatile software engineer.
+                    I am delighted to share with you my exceptional performance in the Ordinary Level exam at St. Aloysius, where I
+                    achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication and
+                    academic excellence.
                   </p>
                 </div>
               </div>
@@ -294,6 +296,18 @@ const HomePage = (props: Props) => {
             <div className="col-lg-6 ">
               <h3 className="mb-4">My Experience</h3>
               <div className="border-left border-primary pt-2 pl-4 ml-2">
+                <div className="position-relative ex-me mb-4">
+                  <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
+                  <h5 className="font-weight-bold mb-1">Software Engineer</h5>
+                  <p className="mb-2">
+                    <strong>OLAK Technologies</strong> | <small>2022-Present</small>
+                  </p>
+                  <p>
+                    As an Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and
+                    innovative organization. OLAK Technologies is a leading company
+                    in the software industry, specializing in delivering solutions to clients worldwide.
+                  </p>
+                </div>
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
                   <h5 className="font-weight-bold mb-1">Member of Rotaract Club</h5>
@@ -315,18 +329,6 @@ const HomePage = (props: Props) => {
                     I am proud to be a member of the Institute of IEEE society, an esteemed
                     global community dedicated to advancing technology and innovation. As an IEEE member, I have the opportunity to
                     connect with like-minded professionals, access valuable resources.
-                  </p>
-                </div>
-                <div className="position-relative ex-me mb-4">
-                  <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
-                  <h5 className="font-weight-bold mb-1">Associate Software Engineer</h5>
-                  <p className="mb-2">
-                    <strong>OLAK Technologies</strong> | <small>2022-Present</small>
-                  </p>
-                  <p>
-                    As an Associate Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and
-                    innovative organization. OLAK Technologies is a leading company
-                    in the software industry, specializing in delivering solutions to clients worldwide.
                   </p>
                 </div>
               </div>

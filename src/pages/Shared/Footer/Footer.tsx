@@ -15,7 +15,7 @@ const Footer = () => {
                                     <h2 style={{ color: "#8ca3ba" }}>Kamindu Gayantha</h2>
                                 </div>
                                 <p className="card-text">
-                                    I am a Software Engineer with 1 year of experience in the IT industry.
+                                    I am a Software Engineer with 2 years + of experience in the IT industry.
                                     So, if you are looking for a Software Engineer, I am here to help you.
                                 </p>
                                 <div className="social mt-2 mb-3">
@@ -59,9 +59,9 @@ const Footer = () => {
                     <div className="divider mb-4"> </div>
                     <div className="row" style={{ fontSize: "10px", textAlign: "center" }}>
                         <div>
-                          Designed and Developed by Kamindu Gayantha <br/>
-                          {/* <i className="fa fa-copyright"></i>  {Date().substr(10, 6)} */}
-                          </div>
+                            Designed and Developed by Kamindu Gayantha <br />
+                            {/* <i className="fa fa-copyright"></i>  {Date().substr(10, 6)} */}
+                        </div>
                     </div>
                 </div>
             </div>
