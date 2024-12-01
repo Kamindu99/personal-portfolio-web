@@ -14,7 +14,7 @@ const HomePage = (props: Props) => {
     link.click();
   };
 
-  const cvUrl = 'https://www.canva.com/design/DAFmfC25NFc/KpVLh33EqykOB3IPFs2jCA/view?utm_content=DAFmfC25NFc&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel';
+  const cvUrl = 'https://www.canva.com/design/DAFmfC25NFc/VfBl8eTREGx9ZMDKGmjTCQ/view?utm_content=DAFmfC25NFc&utm_campaign=designshare&utm_medium=link&utm_source=editor';
 
   const handleCVClick = () => {
     window.open(cvUrl, '_blank');
