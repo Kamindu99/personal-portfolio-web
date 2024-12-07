@@ -254,7 +254,7 @@ const HomePage = (props: Props) => {
           </div>
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <h3 className="mb-4">My Education</h3>
+              <h3 className="mb-4">My Education </h3>
               <div className="border-left border-primary pt-2 pl-4 ml-2">
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
