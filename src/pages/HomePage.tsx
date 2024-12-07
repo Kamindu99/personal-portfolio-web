@@ -130,7 +130,7 @@ const HomePage = (props: Props) => {
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
               <p style={{ textAlign: 'justify' }} className='me-5'>
-                I am Kamindu Gayantha Wanigasinghe, a 25-year-old graduate in Software Engineering from the Sri Lanka Institute of
+                I am Kamindu Gayantha Wanigasinghe, a 25 year old graduate in Software Engineering from the Sri Lanka Institute of
                 Information Technology. My academic journey has equipped me with a solid foundation in programming languages,
                 algorithms, and software development methodologies. I am deeply passionate about leveraging my technical expertise
                 to develop innovative software solutions that positively impact people's lives. I am eager to contribute my skills
