@@ -252,7 +252,7 @@ const HomePage = (props: Props) => {
             </h1>
             <h1 className="position-absolute text-uppercase text-primary">Education & Experience</h1>
           </div>
-          <div className="row align-items-center">
+          <div className="row align-items-center" >
             <div className="col-lg-6">
               <h3 className="mb-4">My Education</h3>
               <div className="border-left border-primary pt-2 pl-4 ml-2">
