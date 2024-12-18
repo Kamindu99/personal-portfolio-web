@@ -250,7 +250,7 @@ const HomePage = (props: Props) => {
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
               Quality
             </h1>
-            <h1 className="position-absolute text-uppercase text-primary">Education & Experience </h1>
+            <h1 className="position-absolute text-uppercase text-primary">Education & Experience</h1>
           </div>
           <div className="row align-items-center" >
             <div className="col-lg-6">
