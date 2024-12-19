@@ -236,7 +236,7 @@ const HomePage = (props: Props) => {
                   <h6 className="font-weight-bold">95%</h6>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar " role="progressbar" style={{ width: `95%`, backgroundColor: '#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
+                  <div className="progress-bar" role="progressbar" style={{ width: `95%`, backgroundColor: '#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
               </div>
             </div>
