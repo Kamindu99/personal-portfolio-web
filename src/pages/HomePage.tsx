@@ -244,7 +244,7 @@ const HomePage = (props: Props) => {
         </div>
       </div>
 
-      <div className="container-fluid  py-3" id="qualification">
+      <div className="container-fluid py-3" id="qualification">
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
