@@ -14,7 +14,7 @@ const HomePage = (props: Props) => {
     link.click();
   };
 
-  const cvUrl = 'https://www.canva.com/design/DAFmfC25NFc/VfBl8eTREGx9ZMDKGmjTCQ/view?utm_content=DAFmfC25NFc&utm_campaign=designshare&utm_medium=link&utm_source=editor';
+  const cvUrl = 'https://www.canva.com/design/DAFmfC25NFc/VfBl8eTREGx9ZMDKGmjTCQ/view?utm_content=DAFmfC25NFc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd9ab21c5a6';
 
   const handleCVClick = () => {
     window.open(cvUrl, '_blank');
@@ -130,7 +130,7 @@ const HomePage = (props: Props) => {
             <div className="col-lg-7">
               <h3 className="mb-4">Software Engineer & Web Developer</h3>
               <p style={{ textAlign: 'justify' }} className='me-5'>
-                I am Kamindu Gayantha Wanigasinghe, a 25 year old graduate in Software Engineering from the Sri Lanka Institute of
+                I am Kamindu Gayantha Wanigasinghe, a 26 year old graduate in Software Engineering from the Sri Lanka Institute of
                 Information Technology. My academic journey has equipped me with a solid foundation in programming languages,
                 algorithms, and software development methodologies. I am deeply passionate about leveraging my technical expertise
                 to develop innovative software solutions that positively impact people's lives. I am eager to contribute my skills
@@ -140,7 +140,7 @@ const HomePage = (props: Props) => {
                 <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Kamindu Gayantha</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">7 December 1999</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Graduated from SLIIT</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">2 Years +</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">3 Years +</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 5273881</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamidugayantha123@gmail.com</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd mail post, Maudella, Dela</span></h6></div>
