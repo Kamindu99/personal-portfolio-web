@@ -141,9 +141,9 @@ const HomePage = (props: Props) => {
                 <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">7 December 1999</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Graduated from SLIIT</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">3 Years +</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 5273881</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 527 3881</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamidugayantha123@gmail.com</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd mail post, Maudella, Dela</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd Mail Post, Maudella, Dela</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
               </div>
               <a className="btn blue btn-outline-primary me-4" onClick={handleCVClick}>
