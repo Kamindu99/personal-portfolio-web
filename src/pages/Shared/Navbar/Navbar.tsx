@@ -21,8 +21,9 @@ const Navbar = () => {
     const isGallery = str.includes("/my-photo");
     const isProject = str.includes("/my-projects");
     const isContactMe = str.includes("/#contact");
-    const isAboutUs = str.includes("/#about");
+    const isAboutUs = str.includes("/#home");
     const isBlogs = str.includes("/my-blogs");
+    const isCertifications = str.includes("/certifications");
     let isHome = str.includes("#home");
 
     return (
@@ -43,11 +44,11 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav  mb-2 mb-lg-0 ms-auto" style={{ marginRight: '2%' }}>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className={`nav-link nav-link-a-text me-3 ${isHome ? 'actives' : ''}`} aria-current="page" href="/#home">Home</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-3 ${isAboutUs ? 'actives' : ''}`} href="/#about">About Me</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isAboutUs ? 'actives' : ''}`} href="/#home">About Me</a>
                         </li>
 
                         <li className="nav-item">
@@ -60,6 +61,10 @@ const Navbar = () => {
 
                         <li className="nav-item">
                             <a className={`nav-link nav-link-a-text me-3 ${isBlogs ? 'actives' : ''}`} href="/my-blogs" >Blogs</a>
+                        </li>
+
+                         <li className="nav-item">
+                            <a className={`nav-link nav-link-a-text me-3 ${isCertifications ? 'actives' : ''}`} href="/certifications" >Certifications</a>
                         </li>
 
                         <li className="nav-item">

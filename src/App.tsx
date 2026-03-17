@@ -8,6 +8,7 @@ import PhotoGallery from './pages/ImageGallery';
 import MyProjects from './pages/MyProjects';
 import MyProfile from './pages/MyProfile';
 import MyBlogs from './pages/MyBlogs';
+import Cetifiacations from './pages/Cetifiacations';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/my-projects" element={<MyProjects />} />
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/my-blogs" element={<MyBlogs />} />
+        <Route path="/certifications" element={<Cetifiacations />} />
       </Routes>
       <Footer />
     </BrowserRouter>

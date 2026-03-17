@@ -142,8 +142,8 @@ const HomePage = (props: Props) => {
                 <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Graduated from SLIIT</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">3 Years +</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 527 3881</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamidugayantha123@gmail.com</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">2nd Mail Post, Maudella, Dela</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamindu.gw@gmail.com</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">Colombo, Sri Lanka</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
               </div>
               <a className="btn blue btn-outline-primary me-4" onClick={handleCVClick}>
@@ -346,7 +346,7 @@ const HomePage = (props: Props) => {
             <h1 className="position-absolute text-uppercase text-primary"> Contact Me</h1>
           </div>
 
-          <div className="row mt-4">
+          <div className="row mt-4 mb-4">
             <div className="col-lg-6">
               <div style={{ overflow: 'hidden', resize: 'none', maxWidth: '100%', width: '500px', height: '500px' }}>
                 <div id="g-mapdisplay" style={{ height: '100%', width: '100%', maxWidth: '100%' }}>

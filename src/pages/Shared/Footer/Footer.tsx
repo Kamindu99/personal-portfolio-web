@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <div className='myfootecss'>
-            <div className=" mt-5">
+            <div className=" mt-0">
                 <div className="card ">
                     <div className="row mb-4">
                         <div className="col-md-4 col-sm-4 col-xs-4">
@@ -15,7 +15,7 @@ const Footer = () => {
                                     <h2 style={{ color: "#8ca3ba" }}>Kamindu Gayantha</h2>
                                 </div>
                                 <p className="card-text">
-                                    I am a Software Engineer with 2 years + of experience in the IT industry.
+                                    I am a Software Engineer with 3 years + of experience in the IT industry.
                                     So, if you are looking for a Software Engineer, I am here to help you.
                                 </p>
                                 <div className="social mt-2 mb-3">
@@ -49,10 +49,10 @@ const Footer = () => {
                         <div className="col-md-2 col-sm-2 col-xs-2">
                             <h5 className="heading">Contact Me</h5>
                             <ul className="card-text">
-                                <li>2nd Lane</li>
-                                <li>Maudella</li>
-                                <li>Dela</li>
-                                <li>071 5273881</li>
+                                <li>Colombo</li>
+                                <li>Sri Lanka</li>
+                                <li>+94 71 527 3881</li>
+                                <li>kamindu.gw@gmail.com</li>
                             </ul>
                         </div>
                     </div>

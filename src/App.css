@@ -490,3 +490,86 @@ button.btn.btn-link i {
   border-radius: 12px;
   padding: 4px 8px;
 }
+
+.certifications .cert-slider {
+  padding: 60px 20px;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+}
+
+.certifications .cert-slider h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.certifications .swiper_container {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.certifications .swiper-slide {
+  width: 600px;
+  height: 370px;
+}
+
+.certifications .card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.certifications .card img {
+  width: 100%;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: 0.4s ease;
+}
+
+/* Hover zoom */
+.certifications .card:hover img {
+  transform: scale(1.1);
+}
+
+/* Overlay */
+.certifications .overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  text-align: left;
+}
+
+/* Pagination dots */
+.certifications .swiper-pagination-bullet {
+  background: #fff;
+}
+
+.certifications .cert-label {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.certifications .cert-label h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #38bdf8;
+  transition: all 0.4s ease;
+  animation: fadeUp 0.4s ease;
+}
+
+/* Smooth animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
