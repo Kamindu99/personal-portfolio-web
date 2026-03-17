@@ -573,3 +573,85 @@ button.btn.btn-link i {
     transform: translateY(0);
   }
 }
+
+.volunteer .volunteer-section {
+  background: #ffffff;
+  padding: 60px 200px;
+  text-align: center;
+  color: white;
+}
+
+.volunteer .subtitle {
+  letter-spacing: 2px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.volunteer .title {
+  font-size: 36px;
+  color: #facc15; /* yellow */
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.volunteer .volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.volunteer .card {
+  background: #000;
+  border-radius: 20px;
+  padding: 30px 20px;
+  position: relative;
+  transition: 0.3s;
+  border: 2px solid #facc15;
+  box-shadow: 0 0 20px rgba(250, 204, 21, 0.4);
+}
+
+/* Hover effect */
+.volunteer .card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 35px rgba(250, 204, 21, 0.8);
+}
+
+/* Logo circle */
+.volunteer .logo {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  border: 4px solid #facc15;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.volunteer .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text */
+.volunteer .card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.volunteer .org {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #fff;
+}
+
+.volunteer .date {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ddd;
+}

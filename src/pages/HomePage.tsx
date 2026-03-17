@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 //@ts-ignore
 import cvFile from './MyCv/KaminduGayanthaCV.pdf';
 import emailjs from 'emailjs-com';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCoverflow } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
 
 type Props = {}
 
@@ -66,6 +71,38 @@ const HomePage = (props: Props) => {
   const handleMouseLeave = () => {
     setSpotlightVisible(false);
   };
+
+  const data = [
+    {
+      id: 1,
+      role: 'Treasurer',
+      org: 'IEEE WIE Affinity group of SUSL',
+      date: '2024 August - Present',
+      img: 'https://bucolic-gingersnap-bc3710.netlify.app/img/Untitled%20design%20(5).png'
+    },
+    {
+      id: 2,
+      role: 'Project Coordinator',
+      org: 'IEEE WIE Affinity group of SUSL',
+      date: '2024 May - Present',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxyeQtmjb6RGnBEYXIZD8brvl4qr324D63Q&s'
+    },
+    {
+      id: 3,
+      role: 'Program Team Leader',
+      org: 'IEEE Student branch of SUSL',
+      date: '2023 Aug - 2023 Sep',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpueO2lGlAraGiodrbMkXKL9t8Ffzaal-0mg&s'
+    },
+    {
+      id: 4,
+      role: 'Public Relational Manager',
+      org: 'IEEE WIE Affinity group of SUSL',
+      date: '2022 Aug - 2023 Aug',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99W5k9F-JWeS4kkWlBw2pf3B562u3MQTk-A&s'
+    }
+  ];
+
 
   return (
     <div>
@@ -333,6 +370,25 @@ const HomePage = (props: Props) => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className='volunteer' id='voluteering'>
+        <div className="volunteer-section">
+          <p className="subtitle">ME AS A VOLUNTEER</p>
+          <h2 className="title">Volunteering</h2>
+          <div className="volunteer-grid">
+            {data.map((item) => (
+              <div key={item.id} className="card">
+                <div className="logo">
+                  <img src={item.img} alt={item.role} />
+                </div>
+                <h3>{item.role}</h3>
+                <p className="org">{item.org}</p>
+                <p className="date">{item.date}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
