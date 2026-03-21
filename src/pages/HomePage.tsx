@@ -285,7 +285,7 @@ const HomePage = (props: Props) => {
         <div className="container">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
-              Quality
+              Experience
             </h1>
             <h1 className="position-absolute text-uppercase text-primary">Education & Experience</h1>
           </div>
@@ -376,8 +376,12 @@ const HomePage = (props: Props) => {
 
       <div className='volunteer' id='voluteering'>
         <div className="volunteer-section">
-          <p className="subtitle">ME AS A VOLUNTEER</p>
-          <h2 className="title">Volunteering</h2>
+          <div className="position-relative d-flex align-items-center justify-content-center">
+            <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
+              Volunteering
+            </h1>
+            <h1 className="position-absolute text-uppercase text-primary">ME AS A VOLUNTEER</h1>
+          </div>
           <div className="volunteer-grid">
             {data.map((item) => (
               <div key={item.id} className="card">
