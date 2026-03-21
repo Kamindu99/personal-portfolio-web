@@ -382,7 +382,7 @@ const HomePage = (props: Props) => {
             </h1>
             <h1 className="position-absolute text-uppercase text-primary">ME AS A VOLUNTEER</h1>
           </div>
-          <div className="volunteer-grid mt-4">
+          <div className="volunteer-grid mt-6">
             {data.map((item) => (
               <div key={item.id} className="card">
                 <div className="logo">
