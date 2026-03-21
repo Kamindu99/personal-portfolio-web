@@ -382,7 +382,7 @@ const HomePage = (props: Props) => {
             </h1>
             <h1 className="position-absolute text-uppercase text-primary">ME AS A VOLUNTEER</h1>
           </div>
-          <div className="volunteer-grid mt-6">
+          <div className="volunteer-grid mt-5">
             {data.map((item) => (
               <div key={item.id} className="card">
                 <div className="logo">
@@ -398,7 +398,7 @@ const HomePage = (props: Props) => {
       </div>
 
       <section id="contact">
-        <div className="container contactContent">
+        <div className="container contactContent mt-5">
           <div className="position-relative d-flex align-items-center justify-content-center">
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
               Contact
