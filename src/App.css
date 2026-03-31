@@ -93,6 +93,42 @@
   color: #d1d1d1;
   text-transform: uppercase;
   margin: 20px 0;
+  position: absolute;
+  margin-top: 150px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://pbs.twimg.com/media/FZSpEqFUIAAZIX9?format=jpg&name=large");
+    background-size: cover;
+    background-position: relative;
+    background-repeat: no-repeat;
+  }
+
+  .intro h1 {
+    font-family: sans-serif;
+    font-size: 37px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .intro p {
+    font-size: 17px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+    position: absolute;
+    margin-top: 120px;
+  }
 }
 
 .intro button {

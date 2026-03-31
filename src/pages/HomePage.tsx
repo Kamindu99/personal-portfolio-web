@@ -92,7 +92,7 @@ const HomePage = () => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}>
         <h1 className="animate">Hi, It's me Kamindu</h1>
-        <p style={{ position: 'absolute', marginTop: '150px' }}>I am a Software Engineer in Sri Lanka.</p>
+        <p >I am a Software Engineer in Sri Lanka.</p>
         {/* <button>Learn More</button> */}
         <img
           className="spotlight-image"

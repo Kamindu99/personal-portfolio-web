@@ -26,6 +26,13 @@ const Navbar = () => {
     const isCertifications = str.includes("/certifications");
     let isHome = str.includes("#home");
 
+    const closeNavbar = () => {
+        const navbar = document.getElementById("navbarSupportedContent");
+        if (navbar?.classList.contains("show")) {
+            navbar.classList.remove("show");
+        }
+    };
+
     return (
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} >
             <div className="container-fluid">
@@ -48,11 +55,11 @@ const Navbar = () => {
                             <a className={`nav-link nav-link-a-text me-3 ${isHome ? 'actives' : ''}`} aria-current="page" href="/#home">Home</a>
                         </li> */}
                         <li className="nav-item">
-                            <a className={`nav-link nav-link-a-text me-3 ${isAboutUs ? 'actives' : ''}`} href="/#home">About Me</a>
+                            <a className={`nav-link nav-link-a-text me-3 ${isAboutUs ? 'actives' : ''}`} onClick={closeNavbar} href="/#home">About Me</a>
                         </li>
 
                         <li className="nav-item">
-                            <a href='/#contact' className={`nav-link me-3 nav-link-a-text ${isContactMe ? 'actives' : ''}`}>Contact Me</a>
+                            <a href='/#contact' onClick={closeNavbar} className={`nav-link me-3 nav-link-a-text ${isContactMe ? 'actives' : ''}`}>Contact Me</a>
                         </li>
 
                         <li className="nav-item">
@@ -63,7 +70,7 @@ const Navbar = () => {
                             <a className={`nav-link nav-link-a-text me-3 ${isBlogs ? 'actives' : ''}`} href="/my-blogs" >Blogs</a>
                         </li>
 
-                         <li className="nav-item">
+                        <li className="nav-item">
                             <a className={`nav-link nav-link-a-text me-3 ${isCertifications ? 'actives' : ''}`} href="/certifications" >Certifications</a>
                         </li>
 
