@@ -110,38 +110,50 @@
 .achievements {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 40px 80px;
+  gap: 30px;
+  padding: 60px 20px;
+  flex-wrap: wrap;
 }
 
-.achievements .work {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 40px;
+/* Card */
+.work-card {
+  background: #fff;
+  width: 60vh;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
-.achievements .work i {
-  width: fit-content;
-  font-size: 50px;
-  color: #333333;
-  border-radius: 50%;
-  border: 2px solid #333333;
-  padding: 12px;
+/* Hover effect */
+.work-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.achievements .work .work-heading {
-  font-size: 20px;
-  color: #333333;
+/* Icon */
+.work-icon {
+  font-size: 45px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Heading */
+.work-heading {
+  font-size: 18px;
+  font-weight: 600;
   text-transform: uppercase;
-  margin: 10px 0;
+  margin-bottom: 10px;
+  color: #222;
 }
 
-.achievements .work .work-text {
+/* Text */
+.work-text {
   font-size: 15px;
-  color: #585858;
-  margin: 10px 0;
+  color: #555;
+  line-height: 1.6;
 }
 
 /* CSS for main section end*/
@@ -540,7 +552,7 @@ button.btn.btn-link i {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   text-align: left;
 }
 
@@ -568,6 +580,7 @@ button.btn.btn-link i {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -589,15 +602,30 @@ button.btn.btn-link i {
 
 .volunteer .title {
   font-size: 36px;
-  color: #facc15; /* yellow */
+  color: #facc15;
+  /* yellow */
   margin-bottom: 40px;
 }
 
 /* Grid */
 .volunteer .volunteer-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .volunteer .volunteer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .volunteer .volunteer-grid {
+    grid-template-columns: 2fr;
+  }
 }
 
 /* Card */
@@ -654,4 +682,21 @@ button.btn.btn-link i {
   margin-top: 10px;
   font-size: 14px;
   color: #ddd;
+}
+
+.skill-card {
+  border-radius: 15px;
+  background: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.skill-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.skill-icon {
+  font-size: 50px;
 }

@@ -1,12 +1,69 @@
-import React, { useState } from 'react'
+import { useState } from 'react';
 //@ts-ignore
-import cvFile from './MyCv/KaminduGayanthaCV.pdf';
 import emailjs from 'emailjs-com';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCoverflow } from 'swiper/modules';
+import {
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaAngular, FaDocker, FaAws, FaPython
+} from "react-icons/fa";
 
+import {
+  SiTypescript, SiJavascript, SiNextdotjs, SiRedux, SiMongodb, SiMysql,
+  SiExpress, SiGooglecloud, SiJira, SiTrello, SiFigma, SiGitlab,
+  SiBitbucket, SiPostman, SiSwagger, SiCpanel, SiSass
+} from "react-icons/si";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
+import { IconType } from 'react-icons';
+
+import { FaCode, FaLaptopCode, FaUsers } from "react-icons/fa";
+
+const FaCodeIcon = FaCode as React.ElementType;
+const FaLaptopCodeIcon = FaLaptopCode as React.ElementType;
+const FaUsersIcon = FaUsers as React.ElementType;
+
+type Skill = {
+  name: string;
+  icon: IconType;
+  color: string;
+};
+
+const skills: Skill[] = [
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+
+  { name: "React.js", icon: FaReact, color: "#61DBFB" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+  { name: "Redux", icon: SiRedux, color: "#764ABC" },
+
+  { name: "Node.js", icon: FaNodeJs, color: "#68A063" },
+  { name: "Express.js", icon: SiExpress, color: "#000000" },
+
+  { name: "HTML", icon: FaHtml5, color: "#E34C26" },
+  { name: "CSS", icon: FaCss3Alt, color: "#264de4" },
+  { name: "SCSS", icon: SiSass, color: "#CD6799" },
+
+  { name: "MySQL", icon: SiMysql, color: "#00758F" },
+  { name: "MongoDB", icon: SiMongodb, color: "#4DB33D" },
+
+  { name: "AWS", icon: FaAws, color: "#FF9900" },
+  { name: "GCP", icon: SiGooglecloud, color: "#4285F4" },
+
+  { name: "Docker", icon: FaDocker, color: "#0db7ed" },
+
+  { name: "GitLab", icon: SiGitlab, color: "#FC6D26" },
+  { name: "Bitbucket", icon: SiBitbucket, color: "#2684FF" },
+
+  { name: "Jira", icon: SiJira, color: "#0052CC" },
+  { name: "Trello", icon: SiTrello, color: "#0079BF" },
+
+  { name: "Figma", icon: SiFigma, color: "#F24E1E" },
+
+  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+  { name: "Swagger", icon: SiSwagger, color: "#85EA2D" },
+
+  { name: "cPanel", icon: SiCpanel, color: "#FF6C2C" },
+
+  { name: "Python", icon: FaPython, color: "#3776AB" }
+];
 
 type Props = {}
 
@@ -14,7 +71,7 @@ const HomePage = (props: Props) => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = cvFile;
+    link.href = "/MyCv/KaminduGayanthaCV.pdf"
     link.download = 'KaminduGayantha.pdf';
     link.click();
   };
@@ -122,7 +179,7 @@ const HomePage = (props: Props) => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}>
         <h1 className="animate">Hi, It's me Kamindu</h1>
-        <p style={{ position: 'absolute', marginTop: '150px' }}>I am a web developer in Sri Lanka.</p>
+        <p style={{ position: 'absolute', marginTop: '150px' }}>I am a Software Engineer in Sri Lanka.</p>
         {/* <button>Learn More</button> */}
         <img
           className="spotlight-image"
@@ -137,21 +194,31 @@ const HomePage = (props: Props) => {
       </div>
 
       <div className="achievements">
-        <div className="work">
-          <i className="fas fa-atom"></i>
+
+        <div className="work-card">
+          <FaCodeIcon className="work-icon" />
           <p className="work-heading">Projects</p>
-          <p className="work-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
+          <p className="work-text">
+            Built and delivered multiple full-stack applications using React, Node.js, and Spring Boot with a focus on scalability and performance.
+          </p>
         </div>
-        <div className="work">
-          <i className="fas fa-skiing"></i>
+
+        <div className="work-card">
+          <FaLaptopCodeIcon className="work-icon" />
           <p className="work-heading">Skills</p>
-          <p className="work-text">I have a lot of skills and I am very good at them. I am very good at programming and I am always looking for new skills.</p>
+          <p className="work-text">
+            Strong experience in modern web development including frontend, backend, and cloud technologies with clean and maintainable code.
+          </p>
         </div>
-        <div className="work">
-          <i className="fas fa-ethernet"></i>
-          <p className="work-heading">Network</p>
-          <p className="work-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
+
+        <div className="work-card">
+          <FaUsersIcon className="work-icon" />
+          <p className="work-heading">Collaboration</p>
+          <p className="work-text">
+            Worked in Agile teams, contributing to code reviews, system design, and delivering high-quality software solutions.
+          </p>
         </div>
+
       </div>
 
       <div className="container-fluid py-3" id="about">
@@ -177,7 +244,7 @@ const HomePage = (props: Props) => {
                 <div className="col-sm-6 py-2"><h6>Name: <span className="text-secondary">Kamindu Gayantha</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Birthday: <span className="text-secondary">7 December 1999</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Degree: <span className="text-secondary">Graduated from SLIIT</span></h6></div>
-                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">3 Years +</span></h6></div>
+                <div className="col-sm-6 py-2"><h6>Experience: <span className="text-secondary">4 Years +</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Phone: <span className="text-secondary">071 527 3881</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamindu.gw@gmail.com</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">Colombo, Sri Lanka</span></h6></div>
@@ -194,90 +261,31 @@ const HomePage = (props: Props) => {
         </div>
       </div>
 
-      <div className="container-fluid py-3" id="skill">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>Skills</h1>
-            <h1 className="position-absolute text-uppercase text-primary">My Skills</h1>
-          </div>
-          <div className="row align-items-center">
-            <div className="col-md-6">
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">React Js</h6>
-                  <h6 className="font-weight-bold">90%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-primary" role="progressbar" style={{ width: `90%` }} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Node Js | Express Js</h6>
-                  <h6 className="font-weight-bold">90%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-warning" role="progressbar" style={{ width: `90%` }} aria-valuenow={95} aria-valuemin={0} aria-valuemax={100}></div>
+
+      <div className="container py-5" id="skill">
+        <div className="text-center mb-5">
+          <h1 className="text-uppercase text-primary">My Skills</h1>
+          <p className="text-muted">Technologies I work with</p>
+        </div>
+
+        <div className="row">
+          {skills.map((skill, index) => {
+            const Icon = skill?.icon as React.ElementType;
+            return (
+              <div className="col-6 col-md-1 mb-4" key={index}>
+                <div className="skill-card text-center  pb-2 pt-2" data-aos="zoom-in">
+                  <div
+                    className="skill-icon mb-3"
+                    style={{ color: skill.color }}
+                  >
+                    <Icon className="skill-icon mb-3"
+                      style={{ color: skill.color }} />
+                  </div>
+                  <h6>{skill.name}</h6>
                 </div>
               </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">PHP</h6>
-                  <h6 className="font-weight-bold">70%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-danger" role="progressbar" style={{ width: `70%` }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">SQL</h6>
-                  <h6 className="font-weight-bold">75%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" style={{ width: `75%`, backgroundColor: '#ba02ba' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6">
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Angular Js</h6>
-                  <h6 className="font-weight-bold">85%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-success" role="progressbar" style={{ width: `85%` }} aria-valuenow={80} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Java | Spring Boot</h6>
-                  <h6 className="font-weight-bold">75%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-dark" role="progressbar" style={{ width: `75%` }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">HTML | CSS</h6>
-                  <h6 className="font-weight-bold">95%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar bg-info" role="progressbar" style={{ width: `95%` }} aria-valuenow={65} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-              <div className="skill mb-4">
-                <div className="d-flex justify-content-between">
-                  <h6 className="font-weight-bold">Version Control (Git)</h6>
-                  <h6 className="font-weight-bold">95%</h6>
-                </div>
-                <div className="progress">
-                  <div className="progress-bar" role="progressbar" style={{ width: `95%`, backgroundColor: '#b06005' }} aria-valuenow={70} aria-valuemin={0} aria-valuemax={100}></div>
-                </div>
-              </div>
-            </div>
-          </div>
+            )
+          })}
         </div>
       </div>
 
@@ -337,35 +345,36 @@ const HomePage = (props: Props) => {
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
                   <h5 className="font-weight-bold mb-1">Software Engineer</h5>
                   <p className="mb-2">
-                    <strong>OLAK Technologies</strong> | <small>2022-Present</small>
+                    <strong>OLAK Technologies</strong> | <small>2024 JAN-Present</small>
                   </p>
                   <p>
-                    As an Software Engineer at OLAK Technologies since 2022, I am proud to be a part of a dynamic and
-                    innovative organization. OLAK Technologies is a leading company
-                    in the software industry, specializing in delivering solutions to clients worldwide.
+                    Designed and developed scalable web applications using modern technologies including React.js, Node.js, and Spring Boot.
+                    Led the implementation of key features, optimized performance, and ensured high code quality through best
+                    practices and code reviews.
                   </p>
                 </div>
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
-                  <h5 className="font-weight-bold mb-1">Member of Rotaract Club</h5>
+                  <h5 className="font-weight-bold mb-1">Associate Software Engineer</h5>
                   <p className="mb-2">
-                    <strong>SLIIT</strong> | <small>2020-2024</small>
+                    <strong>OLAK Technologies</strong> | <small>2023 MAY-2023 DEC</small>
                   </p>
                   <p>
-                    Membership in the Rotaract club is a reflection of my commitment to service, social responsibility, and making a
-                    positive difference in the world. It demonstrates my dedication to upholding the values of Rotary International.
+                    Worked closely with cross-functional teams to design and implement new features,
+                    improve application performance, and ensure code quality. Actively participated in code reviews, debugging, and
+                    Agile development to deliver quality software solutions.
                   </p>
                 </div>
                 <div className="position-relative ex-me mb-4">
                   <i className="far fa-dot-circle text-primary position-absolute" style={{ top: '2px', left: '-35px', fontSize: '22px' }}></i>
-                  <h5 className="font-weight-bold mb-1">Member of IEEE</h5>
+                  <h5 className="font-weight-bold mb-1">Trainee Software Engineer</h5>
                   <p className="mb-2">
-                    <strong>SLIIT</strong> | <small>2020-2024</small>
+                    <strong>OLAK Technologies</strong> | <small>2022 OCT-2023 APR</small>
                   </p>
                   <p>
-                    I am proud to be a member of the Institute of IEEE society, an esteemed
-                    global community dedicated to advancing technology and innovation. As an IEEE member, I have the opportunity to
-                    connect with like-minded professionals, access valuable resources.
+                    Gained hands-on experience in full-stack development by working on real-world projects under senior guidance. Assisted
+                    in building frontend interfaces using React and backend APIs using Node.js and Spring Boot. Learned best practices in coding and
+                    version control.
                   </p>
                 </div>
               </div>
