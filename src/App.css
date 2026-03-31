@@ -660,7 +660,14 @@ button.btn.btn-link i {
 /* Mobile */
 @media (max-width: 576px) {
   .volunteer .volunteer-grid {
-    grid-template-columns: 2fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .volunteer .volunteer-section {
+    background: #ffffff;
+    padding: 0px 10px;
+    text-align: center;
+    color: white;
   }
 }
 
@@ -735,4 +742,11 @@ button.btn.btn-link i {
 
 .skill-icon {
   font-size: 50px;
+}
+
+@media (max-width: 576px) {
+  .experience .rowcustom {
+    margin-left: 20px;
+    text-align: justify;
+  }
 }
