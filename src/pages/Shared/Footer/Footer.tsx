@@ -5,8 +5,8 @@ const Footer = () => {
 
     return (
         <div className='myfootecss'>
-            <div className=" mt-0">
-                <div className="card ">
+            <div className="card ">
+                <div className='footer-content'>
                     <div className="row mb-4">
                         <div className="col-md-4 col-sm-4 col-xs-4">
                             <div className="footer-text pull-left">
@@ -15,7 +15,7 @@ const Footer = () => {
                                     <h2 style={{ color: "#8ca3ba" }}>Kamindu Gayantha</h2>
                                 </div>
                                 <p className="card-text">
-                                    I am a Software Engineer with 3 years + of experience in the IT industry.
+                                    I am a Software Engineer with 4 years + of experience in the IT industry.
                                     So, if you are looking for a Software Engineer, I am here to help you.
                                 </p>
                                 <div className="social mt-2 mb-3">
@@ -59,9 +59,33 @@ const Footer = () => {
                     <div className="divider mb-4"> </div>
                     <div className="row" style={{ fontSize: "10px", textAlign: "center" }}>
                         <div>
-                            Designed and Developed by Kamindu Gayantha <br />
+                            © {new Date().getFullYear()} Designed and Developed by Kamindu Gayantha <br />
                             {/* <i className="fa fa-copyright"></i>  {Date().substr(10, 6)} */}
                         </div>
+                    </div>
+                </div>
+                <div className="mobile-footer">
+                    <div className="mobile-footer-card">
+
+                        <h5 className="footer-name">Kamindu Gayantha</h5>
+                        <p className="footer-role">Software Engineer</p>
+
+                        <div className="footer-social">
+                            <a href="https://www.linkedin.com/in/kamindugayantha" target="_blank" rel="noreferrer">
+                                <i className="fa fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/Kamindu99" target="_blank" rel="noreferrer">
+                                <i className="fa fa-github"></i>
+                            </a>
+                            <a href="https://instagram.com/k_a_m_i_n_d_u_" target="_blank" rel="noreferrer">
+                                <i className="fa fa-instagram"></i>
+                            </a>
+                        </div>
+
+                        <p className="footer-text">
+                            © {new Date().getFullYear()} Designed & Developed by Kamindu
+                        </p>
+
                     </div>
                 </div>
             </div>
