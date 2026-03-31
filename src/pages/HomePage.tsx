@@ -1,73 +1,18 @@
 import { useState } from 'react';
 //@ts-ignore
 import emailjs from 'emailjs-com';
-import {
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaAngular, FaDocker, FaAws, FaPython
-} from "react-icons/fa";
-
-import {
-  SiTypescript, SiJavascript, SiNextdotjs, SiRedux, SiMongodb, SiMysql,
-  SiExpress, SiGooglecloud, SiJira, SiTrello, SiFigma, SiGitlab,
-  SiBitbucket, SiPostman, SiSwagger, SiCpanel, SiSass
-} from "react-icons/si";
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
-import { IconType } from 'react-icons';
 
 import { FaCode, FaLaptopCode, FaUsers } from "react-icons/fa";
+import skills from '../data/skills';
+import volunteer from '../data/volunteer';
 
 const FaCodeIcon = FaCode as React.ElementType;
 const FaLaptopCodeIcon = FaLaptopCode as React.ElementType;
 const FaUsersIcon = FaUsers as React.ElementType;
 
-type Skill = {
-  name: string;
-  icon: IconType;
-  color: string;
-};
-
-const skills: Skill[] = [
-  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
-  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
-
-  { name: "React.js", icon: FaReact, color: "#61DBFB" },
-  { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
-  { name: "Redux", icon: SiRedux, color: "#764ABC" },
-
-  { name: "Node.js", icon: FaNodeJs, color: "#68A063" },
-  { name: "Express.js", icon: SiExpress, color: "#000000" },
-
-  { name: "HTML", icon: FaHtml5, color: "#E34C26" },
-  { name: "CSS", icon: FaCss3Alt, color: "#264de4" },
-  { name: "SCSS", icon: SiSass, color: "#CD6799" },
-
-  { name: "MySQL", icon: SiMysql, color: "#00758F" },
-  { name: "MongoDB", icon: SiMongodb, color: "#4DB33D" },
-
-  { name: "AWS", icon: FaAws, color: "#FF9900" },
-  { name: "GCP", icon: SiGooglecloud, color: "#4285F4" },
-
-  { name: "Docker", icon: FaDocker, color: "#0db7ed" },
-
-  { name: "GitLab", icon: SiGitlab, color: "#FC6D26" },
-  { name: "Bitbucket", icon: SiBitbucket, color: "#2684FF" },
-
-  { name: "Jira", icon: SiJira, color: "#0052CC" },
-  { name: "Trello", icon: SiTrello, color: "#0079BF" },
-
-  { name: "Figma", icon: SiFigma, color: "#F24E1E" },
-
-  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
-  { name: "Swagger", icon: SiSwagger, color: "#85EA2D" },
-
-  { name: "cPanel", icon: SiCpanel, color: "#FF6C2C" },
-
-  { name: "Python", icon: FaPython, color: "#3776AB" }
-];
-
-type Props = {}
-
-const HomePage = (props: Props) => {
+const HomePage = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -128,38 +73,6 @@ const HomePage = (props: Props) => {
   const handleMouseLeave = () => {
     setSpotlightVisible(false);
   };
-
-  const data = [
-    {
-      id: 1,
-      role: 'Treasurer',
-      org: 'IEEE WIE Affinity group of SUSL',
-      date: '2024 August - Present',
-      img: 'https://bucolic-gingersnap-bc3710.netlify.app/img/Untitled%20design%20(5).png'
-    },
-    {
-      id: 2,
-      role: 'Project Coordinator',
-      org: 'IEEE WIE Affinity group of SUSL',
-      date: '2024 May - Present',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxyeQtmjb6RGnBEYXIZD8brvl4qr324D63Q&s'
-    },
-    {
-      id: 3,
-      role: 'Program Team Leader',
-      org: 'IEEE Student branch of SUSL',
-      date: '2023 Aug - 2023 Sep',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpueO2lGlAraGiodrbMkXKL9t8Ffzaal-0mg&s'
-    },
-    {
-      id: 4,
-      role: 'Public Relational Manager',
-      org: 'IEEE WIE Affinity group of SUSL',
-      date: '2022 Aug - 2023 Aug',
-      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT99W5k9F-JWeS4kkWlBw2pf3B562u3MQTk-A&s'
-    }
-  ];
-
 
   return (
     <div>
@@ -392,7 +305,7 @@ const HomePage = (props: Props) => {
             <h1 className="position-absolute text-uppercase text-primary">ME AS A VOLUNTEER</h1>
           </div>
           <div className="volunteer-grid mt-5">
-            {data.map((item) => (
+            {volunteer.map((item) => (
               <div key={item.id} className="card">
                 <div className="logo">
                   <img src={item.img} alt={item.role} />

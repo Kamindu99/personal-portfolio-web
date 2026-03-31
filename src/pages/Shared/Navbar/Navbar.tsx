@@ -30,7 +30,7 @@ const Navbar = () => {
         <nav className={`navbar navbar-expand-lg navbar-light ${isSticky ? "stickynav" : "normalnav"}`} >
             <div className="container-fluid">
                 <div className="navbar-heading mt-2">
-                    <h3 style={{ marginLeft: '30px' }}>
+                    <h3 className='topHeader'>
                         <Link className="navbar-h ms-5" to="/">
                             <img src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687384669/2023-06-18_1.18.52_AM_an6meh.png" style={{ height: '50px' }} alt="Logo" className="logo-image me-3" />
                             Kamindu Gayantha

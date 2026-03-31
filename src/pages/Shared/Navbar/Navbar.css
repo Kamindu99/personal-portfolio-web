@@ -37,3 +37,22 @@
 .nav-link-a-text {
     font-size: 20px;
 }
+
+.topHeader {
+    margin-left: 30px;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .topHeader {
+        margin-left: 30px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .topHeader {
+        margin-left: -30px;
+        font-size: 20px;
+    }
+}
