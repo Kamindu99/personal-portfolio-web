@@ -1,10 +1,10 @@
-import React from 'react'
-import { IconType } from 'react-icons';
+import React from 'react';
 
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import { FaArrowRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const FaGithubIcon = FaGithub as React.ElementType;
 const FaExternalLinkAltIcon = FaExternalLinkAlt as React.ElementType;
+const FaArrowRightIcon = FaArrowRight as React.ElementType;
 
 const projects = [
     {
@@ -68,6 +68,12 @@ function RecentProjects() {
 
                     </div>
                 ))}
+            </div>
+
+            <div className="text-center mt-4">
+                <a href="/my-projects" className="view-all-btn">
+                    View All Projects <FaArrowRightIcon style={{ marginLeft: "8px" }} />
+                </a>
             </div>
 
         </div>
