@@ -6,6 +6,7 @@ import Experience from './HomeSections/Experience';
 import Skills from './HomeSections/Skills';
 import Volunteer from './HomeSections/Volunteer';
 import Contact from './HomeSections/Contact';
+import RecentProjects from './HomeSections/RecentProjects';
 
 const FaCodeIcon = FaCode as React.ElementType;
 const FaLaptopCodeIcon = FaLaptopCode as React.ElementType;
@@ -133,6 +134,8 @@ const HomePage = () => {
       <Skills />
 
       <Experience />
+
+      <RecentProjects/>
 
       <Volunteer />
 

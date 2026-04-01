@@ -1,35 +1,5 @@
 const projects = [
     {
-        id: "headingTwelve",
-        target: "collapseTwelve",
-        title: "Land Selling Website - (AngularJs , Json-Server & Angular MUI)",
-        description: "This is a Land Selling Website developed using AngularJs as the frontend framework, Json-Server as the backend framework. The system provides various features for managing land-related tasks such as land management, land booking, land selling. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across desktop and mobile platforms.",
-        features: [
-            "Land Management",
-            "Apartment Management",
-            "House Selling",
-            "Json-Server RestApi",
-            "Angular Material UI"
-        ],
-        technologies: [
-            "AngularJs",
-            "JsonServer",
-            "AngularMUI",
-            "Bootstrap",
-            "CSS",
-            "VsCode",
-            "Github",
-            "NoDatabase"
-        ],
-        image: [
-            {
-                image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1690718293/landsale_ky48wn.jpg",
-                imagename: "1. Lands Page"
-            }
-        ],
-        url: "https://blueskylands.netlify.app/"
-    },
-    {
         id: "headingEighteen",
         target: "collapseEighteen",
         title: "Online Library Management System - (ReactJs , MUI, SpringBoot(Java) , Postgres)",
@@ -128,6 +98,36 @@ const projects = [
             }
         ],
         url: "https://travelwithkamidu.netlify.app/"
+    },
+    {
+        id: "headingTwelve",
+        target: "collapseTwelve",
+        title: "Land Selling Website - (AngularJs , Json-Server & Angular MUI)",
+        description: "This is a Land Selling Website developed using AngularJs as the frontend framework, Json-Server as the backend framework. The system provides various features for managing land-related tasks such as land management, land booking, land selling. It also offers a user-friendly interface that ensures seamless navigation and an enjoyable user experience. The system is designed to be responsive and compatible with various devices, ensuring a consistent experience across desktop and mobile platforms.",
+        features: [
+            "Land Management",
+            "Apartment Management",
+            "House Selling",
+            "Json-Server RestApi",
+            "Angular Material UI"
+        ],
+        technologies: [
+            "AngularJs",
+            "JsonServer",
+            "AngularMUI",
+            "Bootstrap",
+            "CSS",
+            "VsCode",
+            "Github",
+            "NoDatabase"
+        ],
+        image: [
+            {
+                image: "https://res.cloudinary.com/dmfljlyu1/image/upload/v1690718293/landsale_ky48wn.jpg",
+                imagename: "1. Lands Page"
+            }
+        ],
+        url: "https://blueskylands.netlify.app/"
     },
     {
         id: "headingFour",
