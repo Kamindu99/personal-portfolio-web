@@ -87,19 +87,19 @@ const HomePage = () => {
 
       </div>
 
-      <div className="container-fluid py-3" id="about">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
+      <div className="container-fluid py-3" id="about" >
+        <div className="container" >
+          <div className="position-relative d-flex align-items-center justify-content-center" >
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
             <h1 className="position-absolute text-uppercase text-primary">About Me</h1>
           </div>
-          <div className="row align-items-center">
-            <div className="col-lg-5 pb-4 pb-lg-0">
+          <div className="row align-items-center" >
+            <div className="col-lg-5 pb-4 pb-lg-0" >
               <img className="img-fluid rounded " style={{ height: '500px', marginTop: '-16%', marginLeft: '20%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
             </div>
             <div className="col-lg-7">
-              <h3 className="mb-4">Software Engineer & Web Developer</h3>
-              <p style={{ textAlign: 'justify' }} className='me-5'>
+              <h3 className="mb-4 text-center text-md-start">Software Engineer & Web Developer</h3>
+              <p style={{ textAlign: 'justify' }} className='me-0 me-md-5'>
                 I am Kamindu Gayantha Wanigasinghe, a 26 year old graduate in Software Engineering from the Sri Lanka Institute of
                 Information Technology. My academic journey has equipped me with a solid foundation in programming languages,
                 algorithms, and software development methodologies. I am deeply passionate about leveraging my technical expertise
@@ -116,12 +116,14 @@ const HomePage = () => {
                 <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">Colombo, Sri Lanka</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
               </div>
-              <a className="btn blue btn-outline-primary me-4" onClick={handleCVClick}>
-                View My CV
-              </a>
-              <a className="btn blue btn-outline-primary me-4" onClick={handleDownload}>
-                Download My CV
-              </a>
+              <div className="d-flex justify-content-between ">
+                <a className="btn btn-outline-secondary me-2 w-50" onClick={handleCVClick}>
+                  View My CV
+                </a>
+                <a className="btn btn-outline-secondary w-50" onClick={handleDownload}>
+                  Download My CV
+                </a>
+              </div>
             </div>
           </div>
         </div>

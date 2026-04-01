@@ -744,6 +744,10 @@ button.btn.btn-link i {
   font-size: 50px;
 }
 
+.experience .rowcustom {
+  text-align: justify;
+}
+
 @media (max-width: 576px) {
   .experience .rowcustom {
     margin-left: 20px;

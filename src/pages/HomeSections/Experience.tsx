@@ -4,7 +4,7 @@ function Experience() {
     return (
         <div className="container-fluid py-3 experience" id="qualification">
             <div className="container">
-                <div className="position-relative d-flex align-items-center justify-content-center">
+                <div className="position-relative d-flex align-items-center justify-content-center mb-4">
                     <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: '1px #dee2e6' }}>
                         Experience
                     </h1>
@@ -20,7 +20,7 @@ function Experience() {
                                 <p className="mb-2">
                                     <strong>SLIIT</strong> | <small>2020 - 2024</small>
                                 </p>
-                                <p className='me-5'>
+                                <p className='me-0 me-md-5'>
                                     I am a graduate of the B.Sc. Software Engineering program at SLIIT (Sri Lanka Institute of Information Technology),
                                     where I developed the skills and versatility to excel as a software engineer.
                                 </p>
@@ -31,7 +31,7 @@ function Experience() {
                                 <p className="mb-2">
                                     <strong>St. Aloysius College</strong> | <small>2016 - 2018</small>
                                 </p>
-                                <p className='me-5'>
+                                <p className='me-0 me-md-5'>
                                     I am pleased to share that I have successfully passed the AL exam at St. Aloysius, attaining three
                                     commendable C grades. This achievement represents a significant milestone in my academic journey and reflects
                                     my commitment to learning.
@@ -43,7 +43,7 @@ function Experience() {
                                 <p className="mb-2">
                                     <strong>St. Aloysius College</strong> | <small>2009 - 2015</small>
                                 </p>
-                                <p className='me-5'>
+                                <p className='me-0 me-md-5'>
                                     I am delighted to share with you my exceptional performance in the Ordinary Level exam at St. Aloysius, where I
                                     achieved remarkable success with 6 A's and 3 B's. These outstanding grades reflect my dedication and
                                     academic excellence.
