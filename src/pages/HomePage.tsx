@@ -88,7 +88,7 @@ const HomePage = () => {
 
       </div>
 
-      <div className="container-fluid py-3" id="about" >
+      <div className="container-fluid" id="about" >
         <div className="container" >
           <div className="position-relative d-flex align-items-center justify-content-center" >
             <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>About</h1>
@@ -96,7 +96,7 @@ const HomePage = () => {
           </div>
           <div className="row align-items-center" >
             <div className="col-lg-5 pb-4 pb-lg-0" >
-              <img className="img-fluid rounded " style={{ height: '500px', marginTop: '-16%', marginLeft: '20%' }} src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
+              <img className="img-fluid rounded about-me-image" src="https://res.cloudinary.com/dmfljlyu1/image/upload/v1687031468/myprof_t8slio.png" alt="" />
             </div>
             <div className="col-lg-7">
               <h3 className="mb-4 text-center text-md-start">Software Engineer & Web Developer</h3>
@@ -116,6 +116,34 @@ const HomePage = () => {
                 <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">kamindu.gw@gmail.com</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">Colombo, Sri Lanka</span></h6></div>
                 <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
+                {/* NEW FIELDS */}
+                <div className="col-sm-6 py-2">
+                  <h6>
+                    <i className="fab fa-linkedin me-2"></i>   LinkedIn:{" "}
+                    <a
+                      href="https://www.linkedin.com/in/kamindugayantha/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-secondary"
+                    >
+                      View Profile
+                    </a>
+                  </h6>
+                </div>
+
+                <div className="col-sm-6 py-2">
+                  <h6>
+                    <i className="fab fa-github me-2"></i>   GitHub:{" "}
+                    <a
+                      href="https://github.com/Kamindu99/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-secondary"
+                    >
+                      View Projects
+                    </a>
+                  </h6>
+                </div>
               </div>
               <div className="d-flex justify-content-between ">
                 <a className="btn btn-outline-secondary me-2 w-50" onClick={handleCVClick}>
@@ -135,7 +163,7 @@ const HomePage = () => {
 
       <Experience />
 
-      <RecentProjects/>
+      <RecentProjects />
 
       <Volunteer />
 

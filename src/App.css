@@ -147,7 +147,7 @@
   display: flex;
   justify-content: space-around;
   gap: 30px;
-  padding: 60px 20px;
+  padding: 30px 20px;
   flex-wrap: wrap;
 }
 
@@ -866,4 +866,18 @@ button.btn.btn-link i {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
   color: #fff;
+}
+
+.about-me-image {
+  height: 500px;
+  margin-top: -6%;
+  margin-left: 20%;
+}
+
+@media (max-width: 576px) {
+  .about-me-image {
+    height: 500px;
+    margin-top: 2%;
+    margin-left: 20%;
+  }
 }
