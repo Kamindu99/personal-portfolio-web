@@ -3,9 +3,11 @@ const certifications = [
     { id: 2, title: '2. Engineering Statics', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085357/certificate_5_ecedr2.jpg' },
     { id: 3, title: '3. Java', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085356/certificate_6_kf2bta.jpg' },
     { id: 4, title: '4. Web Development Masterclass', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085357/certificate_1_nr8cis.jpg' },
+    { id: 8, title: '8. Getting Started with DevOps on AWS', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1775203001/AWS_Devops_pswsdy.jpg' },
     { id: 5, title: '5. C Programming', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085357/certificate_7_aq3tpj.jpg' },
     { id: 6, title: '6. Database Engineering', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085358/certificate_3_eoynad.jpg' },
-    { id: 7, title: '7. Javascript with HTML,CSS', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085358/certificate_4_c3w3np.jpg' }
+    { id: 7, title: '7. Javascript with HTML,CSS', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1774085358/certificate_4_c3w3np.jpg' },
+    { id: 9, title: '9. AWS Well-Architected Foundations', img: 'https://res.cloudinary.com/dmfljlyu1/image/upload/v1775203002/AWS_Well_Architch_nrvn7j.jpg' }
 ];
 
 export default certifications;
